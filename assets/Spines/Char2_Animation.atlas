@@ -1,0 +1,41 @@
+
+Char2_Animation.png
+size: 636,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 299, 21
+  size: 245, 223
+  orig: 295, 283
+  offset: 50, 1
+  index: -1
+drop
+  rotate: false
+  xy: 595, 87
+  size: 28, 55
+  orig: 30, 57
+  offset: 1, 1
+  index: -1
+hand_L
+  rotate: false
+  xy: 524, 144
+  size: 110, 122
+  orig: 112, 124
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 2, 2
+  size: 295, 264
+  orig: 303, 264
+  offset: 0, 0
+  index: -1
+sad
+  rotate: true
+  xy: 524, 5
+  size: 137, 69
+  orig: 139, 71
+  offset: 1, 1
+  index: -1

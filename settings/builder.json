@@ -1,4 +1,7 @@
 {
+  "title": "ZigZag",
+  "packageName": "org.cocos2d.demo",
+  "startScene": "d054a05c-c593-4407-b24d-53c716205812",
   "excludeScenes": [],
   "orientation": {
     "landscapeLeft": true,
@@ -6,10 +9,7 @@
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.helloworld",
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "title": "Egg",
-  "webOrientation": "portrait",
+  "webOrientation": "landscape",
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "mainCompressionType": "default",
@@ -18,7 +18,7 @@
   "md5Cache": true,
   "nativeMd5Cache": true,
   "encryptJs": true,
-  "xxteaKey": "42720e6f-02d7-48",
+  "xxteaKey": "ac5f21bf-bed3-47",
   "zipCompressJs": true,
   "fb-instant-games": {},
   "android": {
@@ -27,7 +27,6 @@
   },
   "ios": {
     "REMOTE_SERVER_ROOT": "",
-    "ios_enable_jit": true,
     "packageName": "org.cocos2d.demo"
   },
   "mac": {
@@ -50,6 +49,5 @@
     "scheme": "https",
     "skipRecord": false
   },
-  "appBundle": false,
-  "agreements": {}
+  "appBundle": false
 }

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "3de12979-57fa-4c36-9973-88cf48cadd51",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 193,
+  "height": 33,
+  "platformSettings": {},
+  "subMetas": {
+    "Người chơi 2": {
+      "ver": "1.0.4",
+      "uuid": "3226b342-a3fa-4b27-8204-ea0c3fc6d177",
+      "rawTextureUuid": "3de12979-57fa-4c36-9973-88cf48cadd51",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 193,
+      "height": 33,
+      "rawWidth": 193,
+      "rawHeight": 33,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

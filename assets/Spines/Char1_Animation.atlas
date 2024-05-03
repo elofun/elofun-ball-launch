@@ -1,0 +1,76 @@
+
+Char1_Animation.png
+size: 1607,182
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 1305, 5
+  size: 175, 157
+  orig: 177, 159
+  offset: 1, 1
+  index: -1
+hand_L
+  rotate: true
+  xy: 1543, 8
+  size: 100, 62
+  orig: 102, 64
+  offset: 1, 1
+  index: -1
+hand_R
+  rotate: true
+  xy: 1464, 8
+  size: 100, 77
+  orig: 102, 79
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 1110, 11
+  size: 193, 169
+  orig: 195, 171
+  offset: 1, 1
+  index: -1
+sad
+  rotate: false
+  xy: 835, 2
+  size: 126, 44
+  orig: 128, 46
+  offset: 1, 1
+  index: -1
+tear1
+  rotate: false
+  xy: 835, 48
+  size: 273, 132
+  orig: 275, 134
+  offset: 1, 1
+  index: -1
+tear2
+  rotate: false
+  xy: 2, 4
+  size: 298, 176
+  orig: 300, 178
+  offset: 1, 1
+  index: -1
+tear3
+  rotate: false
+  xy: 302, 16
+  size: 260, 164
+  orig: 262, 166
+  offset: 1, 1
+  index: -1
+tear4
+  rotate: false
+  xy: 564, 25
+  size: 269, 155
+  orig: 271, 157
+  offset: 1, 1
+  index: -1
+wings
+  rotate: false
+  xy: 1464, 110
+  size: 119, 70
+  orig: 121, 72
+  offset: 1, 1
+  index: -1

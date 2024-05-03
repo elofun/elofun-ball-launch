@@ -1,28 +1,16 @@
 {
+  "last-module-event-record-time": 1700129737027,
+  "group-list": [
+    "default",
+    "Wall",
+    "Ball",
+    "ResetFence"
+  ],
   "collision-matrix": [
     [
       false,
+      false,
       false
-    ],
-    [
-      false,
-      false,
-      false,
-      null,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      true,
-      null,
-      null,
-      null,
-      true,
-      null,
-      true
     ],
     [
       false,
@@ -33,83 +21,39 @@
     [
       false,
       true,
-      false,
-      false,
-      false,
-      null,
-      null,
       false
     ],
     [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      null,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false,
-      false,
-      false,
       false,
       false,
       false,
       false
     ]
   ],
-  "excluded-modules": [],
-  "group-list": [
-    "default",
-    "ShootEgg",
-    "StickEgg",
-    "SameEggDetect",
-    "EggPlace",
-    "Wall",
-    "EggPhysic",
-    "GameOverDetect",
-    "rayCast",
-    "OtherEggDetect"
+  "excluded-modules": [
+    "Dynamic Atlas",
+    "DragonBones",
+    "EditBox",
+    "Mesh",
+    "MotionStreak",
+    "Native Socket",
+    "Physics",
+    "RichText",
+    "Slider",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "TiledMap",
+    "VideoPlayer",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
   ],
-  "start-scene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "design-resolution-width": 616,
-  "design-resolution-height": 1334,
+  "preview-port": 7456,
+  "design-resolution-width": 960,
+  "design-resolution-height": 640,
   "fit-width": false,
   "fit-height": true,
   "use-project-simulator-setting": false,
@@ -119,8 +63,6 @@
     "height": 640,
     "width": 960
   },
-  "last-module-event-record-time": 1714012777988,
-  "assets-sort-type": "name",
   "facebook": {
     "appID": "",
     "audience": {
@@ -131,6 +73,8 @@
       "enable": false
     }
   },
-  "preview-port": 7456,
+  "migrate-history": [
+    "cloud-function"
+  ],
   "clear-simulator-cache": true
 }
