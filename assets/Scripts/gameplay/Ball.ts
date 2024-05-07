@@ -58,12 +58,12 @@ export default class Ball extends cc.Component {
     if (this.node.active == false) return;
 
     switch (event.keyCode) {
-      case cc.macro.KEY.a:
+      case 37: //keycode right arrow
         if (this.isBallMoving == true) return;
 
         this.RotateTrajectoryLine(1);
         break;
-      case cc.macro.KEY.d:
+      case 39: //keycode left arrow
         if (this.isBallMoving == true) return;
 
         this.RotateTrajectoryLine(-1);
@@ -73,7 +73,7 @@ export default class Ball extends cc.Component {
   onKeyPressEnter(event: cc.Event.EventKeyboard) {
     if (this.node.active == false) return;
     switch (event.keyCode) {
-      case cc.macro.KEY.enter:
+      case 13: //enter keyCode
         if (this.isBallMoving == true) return;
 
         this.SetDirOfBall(this.trajectoryLineDir);
@@ -97,11 +97,6 @@ export default class Ball extends cc.Component {
     this.isBallMoving = false;
     this.trajectoryLineDir = new cc.Vec2(0, 1);
     this.ball.setPosition(0, 0);
-    console.log(
-      "RESET BALLLLLLLLLLLLLLLLLLLLLL",
-      this.node.getPosition().x,
-      this.node.getPosition().y
-    );
   }
   protected update(dt: number): void {
     // this.trajectoryLine.graphics.clear();
