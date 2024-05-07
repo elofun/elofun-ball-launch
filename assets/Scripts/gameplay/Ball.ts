@@ -25,7 +25,7 @@ export default class Ball extends cc.Component {
   public isBallMoving: boolean = false;
   public mouseHold: boolean = false;
 
-  protected onLoad(): void {
+  protected onEnable(): void {
     Ball.Instance = this;
     this.rigidBody = this.ball.getComponent(cc.RigidBody);
     this.rigidBody.gravityScale = 0;
@@ -45,7 +45,7 @@ export default class Ball extends cc.Component {
       100
     );
   }
-  SetDirOfBallWithMouse(trajectoryLineDir: cc.Vec2) {
+  SetDirOfBall(trajectoryLineDir: cc.Vec2) {
     let dir: cc.Vec2 = trajectoryLineDir
       .sub(this.ball.getPosition())
       .normalize()
@@ -60,27 +60,30 @@ export default class Ball extends cc.Component {
     switch (event.keyCode) {
       case cc.macro.KEY.a:
         if (this.isBallMoving == true) return;
-        console.log("Press a key");
-        this.RotateTrajectoryLine();
+
+        this.RotateTrajectoryLine(1);
+        break;
+      case cc.macro.KEY.d:
+        if (this.isBallMoving == true) return;
+
+        this.RotateTrajectoryLine(-1);
         break;
     }
   }
   onKeyPressEnter(event: cc.Event.EventKeyboard) {
-    console.log(this.node.active);
     if (this.node.active == false) return;
     switch (event.keyCode) {
       case cc.macro.KEY.enter:
         if (this.isBallMoving == true) return;
 
-        console.log("Press enter key");
-        this.SetDirOfBallWithMouse(this.trajectoryLineDir);
+        this.SetDirOfBall(this.trajectoryLineDir);
         this.trajectoryLine.graphics.clear();
         this.isBallMoving = true;
         break;
     }
   }
-  RotateTrajectoryLine() {
-    this.trajectoryLineDir = this.trajectoryLineDir.rotate(0.017453 * 2);
+  RotateTrajectoryLine(dir: number) {
+    this.trajectoryLineDir = this.trajectoryLineDir.rotate(0.017453 * 2 * dir);
     this.trajectoryLine.graphics.clear();
 
     this.trajectoryLine.drawCircle(
@@ -89,7 +92,17 @@ export default class Ball extends cc.Component {
       100
     );
   }
-
+  Reset() {
+    this.rigidBody.linearVelocity = cc.Vec2.ZERO;
+    this.isBallMoving = false;
+    this.trajectoryLineDir = new cc.Vec2(0, 1);
+    this.ball.setPosition(0, 0);
+    console.log(
+      "RESET BALLLLLLLLLLLLLLLLLLLLLL",
+      this.node.getPosition().x,
+      this.node.getPosition().y
+    );
+  }
   protected update(dt: number): void {
     // this.trajectoryLine.graphics.clear();
     // if (this.mouseHold == false) return;

@@ -23,10 +23,13 @@ export default class TimeNeedToTouch extends cc.Component {
 
   // onLoad () {}
 
-  start() {
+  // start() {}
+  setBounce(timeBounce: number) {
+    this.TimeNeedToTouch = timeBounce;
     this.label.string = this.TimeNeedToTouch.toString();
+    this.isOpenDoor = false;
   }
-  SetTimeNeedToTouch() {
+  Touching() {
     if (this.TimeNeedToTouch == 0 && this.isOpenDoor == false) {
       GamePlayManager.Instance.fadeWall.FadeWall();
       this.label.string = this.TimeNeedToTouch.toString();
@@ -36,8 +39,12 @@ export default class TimeNeedToTouch extends cc.Component {
       this.TimeNeedToTouch--;
       this.label.string = this.TimeNeedToTouch.toString();
     } else if (this.TimeNeedToTouch == 0) {
-      GamePlayManager.Instance.Lose();
+      this.isOpenDoor = true;
+      GamePlayManager.Instance.isLost = true;
       this.label.string = "Lost";
+      this.scheduleOnce(() => {
+        GamePlayManager.Instance.Lose();
+      }, 0.4);
     }
   }
 

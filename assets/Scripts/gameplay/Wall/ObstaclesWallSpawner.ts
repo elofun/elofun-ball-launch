@@ -5,18 +5,22 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import Stage from "./Stage";
+import Spawn from "../Spawn";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class StageTestGame extends Stage {
-  @property(cc.Node) ballHolder: cc.Node = null;
-  protected start(): void {
-    // this.node.children.forEach((element) => {
-    //   element.active = true;
-    // });
+export default class ObstaclesWallSpawner extends Spawn {
+  public _wallPrefabName = "wall";
+  public static Instance: ObstaclesWallSpawner = null;
 
+  protected onLoad(): void {
+    ObstaclesWallSpawner.Instance = this;
+  }
+  ClearHolder() {
+    if (this.holder.children.length <= 0) return;
+    this.holder.removeAllChildren();
+    // logq;
   }
   // update (dt) {}
 }

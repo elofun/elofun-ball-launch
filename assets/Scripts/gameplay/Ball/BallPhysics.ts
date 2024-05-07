@@ -19,23 +19,11 @@ export default class BallPhysics extends cc.Component {
     self: cc.PhysicsBoxCollider,
     other: cc.PhysicsCircleCollider
   ) {
-    // console.log(other);
-    console.log(other);
-
-    GamePlayManager.Instance.timeNeedToTouch.SetTimeNeedToTouch();
-    console.log("contact.getWorldManifold().points[0]");
-
+    GamePlayManager.Instance.timeNeedToTouch.Touching();
     ParticleManager.Instance.SpawnThing(
       contact.getWorldManifold().points[0],
       ParticleManager.Instance._particleName.TouchWallParticle
     );
-    // ParticleManager.Instance.SpawnThing(
-    //   contact.getWorldManifold().points[0],
-    //   ParticleManager.Instance._particleName.TouchWallParticle
-    // );
-    // Ball.Instance.SFX.getComponent(cc.AudioSource).play();
-
-    // update (dt) {}
   }
 
   // update (dt) {}

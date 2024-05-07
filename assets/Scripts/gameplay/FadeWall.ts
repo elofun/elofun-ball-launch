@@ -21,4 +21,7 @@ export default class FadeWall extends cc.Component {
       .start();
     // update (dt) {}
   }
+  Reset() {
+    this.node.scale = 1;
+  }
 }

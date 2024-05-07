@@ -4,7 +4,8 @@
     "default",
     "Wall",
     "Ball",
-    "ResetFence"
+    "WinDetecter",
+    "BallCollider"
   ],
   "collision-matrix": [
     [
@@ -21,12 +22,21 @@
     [
       false,
       true,
+      false,
       false
     ],
     [
       false,
       false,
       false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
       false
     ]
   ],

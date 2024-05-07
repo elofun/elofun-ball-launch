@@ -5,14 +5,17 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import GamePlayManager from "../GamePlayManager";
+import LevelManager from "../LevelManager";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class WinDetect extends cc.Component {
   onCollisionEnter(other: cc.Collider, self: cc.Collider) {
-    console.log("WINs");
-
     if (other != self) {
+      // LevelManager.Instance.NextLevel();
+      GamePlayManager.Instance.Win();
     }
   }
 
