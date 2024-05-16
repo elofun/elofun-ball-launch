@@ -9,6 +9,7 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class FadeWall extends cc.Component {
+  @property(cc.Node) winWall: cc.Node = null;
   FadeWall() {
     cc.tween(this.node)
       .to(
@@ -22,6 +23,8 @@ export default class FadeWall extends cc.Component {
     // update (dt) {}
   }
   Reset() {
+    console.log("RESET FADE WALL");
+
     this.node.scale = 1;
   }
 }

@@ -50,15 +50,14 @@ export default class Ball extends cc.Component {
       .sub(this.ball.getPosition())
       .normalize()
       .mul(this.moveSpeed);
-    console.log(dir.x, dir.y);
+
     this.rigidBody.linearVelocity = dir;
   }
   onKeyPress(event: cc.Event.EventKeyboard) {
-    // console.log("CC");
     if (this.node.active == false) return;
 
     switch (event.keyCode) {
-      case 37: //keycode right arrow
+      case cc.macro.KEY.d: //keycode right arrow
         if (this.isBallMoving == true) return;
 
         this.RotateTrajectoryLine(1);
@@ -98,18 +97,5 @@ export default class Ball extends cc.Component {
     this.trajectoryLineDir = new cc.Vec2(0, 1);
     this.ball.setPosition(0, 0);
   }
-  protected update(dt: number): void {
-    // this.trajectoryLine.graphics.clear();
-    // if (this.mouseHold == false) return;
-    // if (this.isBallMoving == false) {
-    //   let dirFormBallToMouse = this.mousePosDir
-    //     .sub(this.ball.getPosition())
-    //     .normalize();
-    //   this.trajectoryLine.drawCircle(
-    //     this.ball.getPosition(),
-    //     dirFormBallToMouse,
-    //     100
-    //   );
-    // }
-  }
+  protected update(dt: number): void {}
 }

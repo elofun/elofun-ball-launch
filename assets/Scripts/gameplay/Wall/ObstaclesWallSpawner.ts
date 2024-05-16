@@ -20,7 +20,7 @@ export default class ObstaclesWallSpawner extends Spawn {
   ClearHolder() {
     if (this.holder.children.length <= 0) return;
     this.holder.removeAllChildren();
-    // logq;
+
   }
   // update (dt) {}
 }

@@ -30,14 +30,14 @@ export default class TimeNeedToTouch extends cc.Component {
     this.isOpenDoor = false;
   }
   Touching() {
-    if (this.TimeNeedToTouch == 0 && this.isOpenDoor == false) {
-      GamePlayManager.Instance.fadeWall.FadeWall();
-      this.label.string = this.TimeNeedToTouch.toString();
-
-      this.isOpenDoor = true;
-    } else if (this.TimeNeedToTouch > 0) {
+    if (this.TimeNeedToTouch > 0) {
       this.TimeNeedToTouch--;
       this.label.string = this.TimeNeedToTouch.toString();
+      if (this.TimeNeedToTouch == 0 && this.isOpenDoor == false) {
+        GamePlayManager.Instance.fadeWall.FadeWall();
+        this.label.string = this.TimeNeedToTouch.toString();
+        this.isOpenDoor = true;
+      }
     } else if (this.TimeNeedToTouch == 0) {
       this.isOpenDoor = true;
       GamePlayManager.Instance.isLost = true;

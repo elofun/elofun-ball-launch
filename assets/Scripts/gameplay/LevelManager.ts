@@ -30,11 +30,12 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
   };
   SetUpLevel(levelIndex: number) {
     const currentLevel = levelDesign[levelIndex];
-    // console.log(currentLevel["wall"]);
+    console.log("levelIndex", levelIndex);
+
+    console.log("currentLevel.level", currentLevel.level);
 
     this.wall.children.forEach((eachWall) => {
       let tempWall = this.GetValueByKey(currentLevel["wall"], eachWall.name);
-
       eachWall.setPosition(tempWall.pos.x, tempWall.pos.y);
       eachWall.width = tempWall.size.w;
       eachWall.height = tempWall.size.h;
@@ -42,19 +43,15 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
         tempWall.size.h;
       eachWall.getComponent(cc.PhysicsBoxCollider).size.width = tempWall.size.w;
     });
-
     this.ballHolder.setPosition(
       currentLevel[this._levelDesignKey.ballStartPos].x,
       currentLevel[this._levelDesignKey.ballStartPos].y
     );
-
     this.fadeWallHolder.setPosition(
       currentLevel[this._levelDesignKey.fadeWallHolder].pos.x,
       currentLevel[this._levelDesignKey.fadeWallHolder].pos.y
     );
     if (currentLevel[this._levelDesignKey.obstaclesWall].length > 0) {
-      //   console.log(currentLevel[this._levelDesignKey.obstaclesWall]);
-
       for (
         let index = 0;
         index < currentLevel[this._levelDesignKey.obstaclesWall].length;
@@ -88,23 +85,26 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
     this.fadeWallHolder.active = true;
     this.ballHolder.active = true;
     console.log(
-      "this.ballHolder.getPosition()",
-      this.ballHolder.getPosition().x,
-      this.ballHolder.getPosition().y
+      "this.fadeWallHolder",
+      this.fadeWallHolder,
+      // this.fadeWallHolder.getPosition().x,
+      // this.fadeWallHolder.getPosition().y,
+      this.fadeWallHolder.getChildByName("FadeAbleWall").scale,
+      this.fadeWallHolder.getChildByName("FadeAbleWall").getPosition().x,
+      this.fadeWallHolder.getChildByName("FadeAbleWall").getPosition().y
     );
   }
   DisableHolder() {
-    // this.fadeWallHolder.active = false;
-    // this.ballHolder.active = false;
-
+    console.log("RESET");
     ObstaclesWallSpawner.Instance.ClearHolder();
     this.ballHolder.getComponent(Ball).Reset();
     this.fadeWallHolder.getComponentInChildren(FadeWall).Reset();
     this.ballHolder.active = false;
   }
-  
   NextLevel() {
-    this.SetUpLevel(++GamePlayManager.Instance.currentLevel);
+    GamePlayManager.Instance.currentLevel =
+      GamePlayManager.Instance.currentLevel + 1;
+    this.SetUpLevel(GamePlayManager.Instance.currentLevel);
   }
   GetValueByKey(objectInput, keyToFind: string) {
     for (const key in objectInput) {

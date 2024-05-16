@@ -43,11 +43,15 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
   }
 
   Win() {
+    // console.log("win");
+
     if (this.isLost == true) return;
     LevelManager.Instance.DisableHolder();
     LevelManager.Instance.NextLevel();
   }
   Lose() {
+    // console.log("lose");
+
     LevelManager.Instance.DisableHolder();
     LevelManager.Instance.SetUpLevel(this.currentLevel);
     this.isLost = false;
