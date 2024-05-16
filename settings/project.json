@@ -2,32 +2,14 @@
   "last-module-event-record-time": 1715830139744,
   "group-list": [
     "default",
-    "Wall",
-    "Ball",
-    "WinDetecter",
-    "BallCollider"
+    "OtherBlockHitBlock",
+    "Block",
+    "noContact",
+    "chain",
+    "destroyLine"
   ],
   "collision-matrix": [
     [
-      false,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
-      true,
-      false
-    ],
-    [
-      false,
-      true,
-      false,
-      false
-    ],
-    [
-      false,
-      false,
       false,
       false,
       true
@@ -35,8 +17,37 @@
     [
       false,
       false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
       false,
       true,
+      false,
+      false,
       false
     ]
   ],

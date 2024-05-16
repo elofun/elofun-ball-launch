@@ -5,6 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
+import GameManager from "./GameManager/GameManager";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -34,13 +36,17 @@ export default class Spawn extends cc.Component {
     let prefab = this.GetPrefabByName(prefabName);
     if (prefab == null) return null;
     let newNode: cc.Node = cc.instantiate(prefab);
-    newNode.active = true;
     newNode.position = new cc.Vec3(spawnPos.x, spawnPos.y, 0);
+
+    newNode.active = true;
     newNode.parent = this.holder;
+
     return newNode;
   }
   protected onEnable(): void {
     this.LoadHolder();
     this.LoadPrefabs();
   }
+
+  // update (dt) {}
 }

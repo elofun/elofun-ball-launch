@@ -5,16 +5,14 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import Stage from "./Stage";
-
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class StageTestGame extends Stage {
-
-  protected start(): void {
-    
-
+export default class Camera extends cc.Component {
+  protected update(dt: number): void {
+    // this.node
+    //   .getChildByName("Rope")
+    //   .getComponent(cc.RigidBody)
+    //   .syncPosition(true);
   }
-
 }
