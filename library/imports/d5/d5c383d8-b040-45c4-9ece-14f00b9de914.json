@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Khung_Character",
+    "texture": "a7a27a82-5c2e-42f6-b19a-f2ad0d7109b2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      234,
+      333
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      234,
+      333
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

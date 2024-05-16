@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TAMDUNG",
+    "texture": "eb472f7c-bacb-4df8-afd3-fcd2eb4c4c3e",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      552,
+      161
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      552,
+      162
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

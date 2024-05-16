@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Time_empty_bar",
+    "texture": "d80cb248-618a-4bd0-93b9-1b1fdf67fa6b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      67,
+      334
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      67,
+      334
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

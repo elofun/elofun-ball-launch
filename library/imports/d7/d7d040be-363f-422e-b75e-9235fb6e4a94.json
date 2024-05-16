@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Đang chờ..",
+    "texture": "f64799dd-0a3a-42fd-aed9-6a06e6a53299",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      178,
+      33
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      179,
+      33
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

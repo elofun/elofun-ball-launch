@@ -1,0 +1,546 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Char1_Animation",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "hmz7DZPgZWywQnjqJ1iKcOrPcB4",
+      "spine": "3.8.99",
+      "x": -146.59,
+      "y": -3.11,
+      "width": 335,
+      "height": 305,
+      "images": "./Char1_PNGs/",
+      "audio": "E:/NGHI/Elofun/Zig Zac/Animation/Character_Animation2/Char1"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "body",
+        "parent": "All",
+        "length": 115.7,
+        "rotation": 81.57,
+        "x": -10.03,
+        "y": 20.19
+      },
+      {
+        "name": "hand_L",
+        "parent": "body",
+        "length": 74.53,
+        "rotation": 114.57,
+        "x": 94.97,
+        "y": 24.51
+      },
+      {
+        "name": "hand_R",
+        "parent": "body",
+        "length": 61.31,
+        "rotation": -103.73,
+        "x": 107.1,
+        "y": -36.36
+      },
+      {
+        "name": "wings",
+        "parent": "body",
+        "length": 72.74,
+        "rotation": 69.37,
+        "x": 95.91,
+        "y": 53.25
+      },
+      {
+        "name": "head",
+        "parent": "body",
+        "length": 120.12,
+        "rotation": 9.33,
+        "x": 124.87,
+        "y": -7.21
+      }
+    ],
+    "slots": [
+      {
+        "name": "wings",
+        "bone": "wings",
+        "attachment": "wings"
+      },
+      {
+        "name": "hand_R",
+        "bone": "hand_R",
+        "attachment": "hand_R"
+      },
+      {
+        "name": "body",
+        "bone": "body",
+        "attachment": "body"
+      },
+      {
+        "name": "hand_L",
+        "bone": "hand_L",
+        "attachment": "hand_L"
+      },
+      {
+        "name": "head",
+        "bone": "head",
+        "attachment": "head"
+      },
+      {
+        "name": "sad",
+        "bone": "head",
+        "attachment": "sad"
+      },
+      {
+        "name": "tear1",
+        "bone": "head",
+        "attachment": "tear4"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "body": {
+            "body": {
+              "x": 52.37,
+              "y": 30.06,
+              "rotation": -81.57,
+              "width": 177,
+              "height": 159
+            }
+          },
+          "hand_L": {
+            "hand_L": {
+              "x": 43.4,
+              "y": -3.29,
+              "rotation": 163.86,
+              "width": 102,
+              "height": 64
+            }
+          },
+          "hand_R": {
+            "hand_R": {
+              "x": 31.75,
+              "y": -7.66,
+              "rotation": -21.64,
+              "width": 102,
+              "height": 79
+            }
+          },
+          "head": {
+            "head": {
+              "x": 73.92,
+              "y": 10.34,
+              "rotation": -90.9,
+              "width": 195,
+              "height": 171
+            }
+          },
+          "sad": {
+            "sad": {
+              "x": 79.14,
+              "y": -7.25,
+              "rotation": -90.9,
+              "width": 128,
+              "height": 46
+            }
+          },
+          "tear1": {
+            "tear1": {
+              "x": 2.59,
+              "y": -41.55,
+              "rotation": -90.9,
+              "width": 275,
+              "height": 134
+            },
+            "tear2": {
+              "x": -1.44,
+              "y": -43.99,
+              "rotation": -90.9,
+              "width": 300,
+              "height": 178
+            },
+            "tear3": {
+              "x": -2.19,
+              "y": -27.98,
+              "rotation": -90.9,
+              "width": 262,
+              "height": 166
+            },
+            "tear4": {
+              "x": -5.84,
+              "y": -37.42,
+              "rotation": -90.9,
+              "width": 271,
+              "height": 157
+            }
+          },
+          "wings": {
+            "wings": {
+              "x": 40.51,
+              "y": 4.17,
+              "rotation": -150.95,
+              "width": 121,
+              "height": 72
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "Cry_Animation": {
+        "slots": {
+          "tear1": {
+            "attachment": [
+              {
+                "name": "tear1"
+              },
+              {
+                "time": 0.1,
+                "name": "tear2"
+              },
+              {
+                "time": 0.2,
+                "name": "tear3"
+              },
+              {
+                "time": 0.3,
+                "name": "tear4"
+              },
+              {
+                "time": 0.4,
+                "name": "tear1"
+              },
+              {
+                "time": 0.5,
+                "name": "tear2"
+              },
+              {
+                "time": 0.6,
+                "name": "tear3"
+              },
+              {
+                "time": 0.7,
+                "name": "tear4"
+              },
+              {
+                "time": 0.8,
+                "name": "tear1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "wings": {
+            "rotate": [
+              {
+                "angle": -1.6,
+                "curve": 0.375,
+                "c2": 0.62,
+                "c3": 0.716
+              },
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "angle": -12.28,
+                "curve": 0.243,
+                "c3": 0.68,
+                "c4": 0.71
+              },
+              {
+                "time": 0.8,
+                "angle": -1.6
+              }
+            ]
+          },
+          "head": {
+            "rotate": [
+              {
+                "angle": 0.7,
+                "curve": 0.379,
+                "c2": 0.6,
+                "c3": 0.724
+              },
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "angle": 3.8,
+                "curve": 0.242,
+                "c3": 0.667,
+                "c4": 0.67
+              },
+              {
+                "time": 0.8,
+                "angle": 0.7
+              }
+            ]
+          },
+          "hand_R": {
+            "rotate": [
+              {
+                "angle": -3.58,
+                "curve": 0.382,
+                "c2": 0.58,
+                "c3": 0.731
+              },
+              {
+                "time": 0.1333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "angle": -14.76,
+                "curve": 0.243,
+                "c3": 0.655,
+                "c4": 0.63
+              },
+              {
+                "time": 0.8,
+                "angle": -3.58
+              }
+            ]
+          },
+          "hand_L": {
+            "rotate": [
+              {
+                "angle": 0.8,
+                "curve": 0.375,
+                "c2": 0.62,
+                "c3": 0.716
+              },
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "angle": 6.15,
+                "curve": 0.243,
+                "c3": 0.68,
+                "c4": 0.71
+              },
+              {
+                "time": 0.8,
+                "angle": 0.8
+              }
+            ]
+          },
+          "body": {
+            "rotate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4333,
+                "angle": 3.92,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8
+              }
+            ],
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4333,
+                "x": 2.47,
+                "y": 16.66,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8
+              }
+            ]
+          }
+        }
+      },
+      "Idle_Animation": {
+        "slots": {
+          "sad": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "tear1": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "wings": {
+            "rotate": [
+              {
+                "angle": -1.6,
+                "curve": 0.375,
+                "c2": 0.62,
+                "c3": 0.716
+              },
+              {
+                "time": 0.1333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8,
+                "angle": -12.28,
+                "curve": 0.243,
+                "c3": 0.68,
+                "c4": 0.71
+              },
+              {
+                "time": 1.3333,
+                "angle": -1.6
+              }
+            ]
+          },
+          "head": {
+            "rotate": [
+              {
+                "angle": 0.7,
+                "curve": 0.379,
+                "c2": 0.6,
+                "c3": 0.724
+              },
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "angle": 3.8,
+                "curve": 0.242,
+                "c3": 0.667,
+                "c4": 0.67
+              },
+              {
+                "time": 1.3333,
+                "angle": 0.7
+              }
+            ]
+          },
+          "hand_R": {
+            "rotate": [
+              {
+                "angle": -3.58,
+                "curve": 0.382,
+                "c2": 0.58,
+                "c3": 0.731
+              },
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8667,
+                "angle": -14.76,
+                "curve": 0.243,
+                "c3": 0.655,
+                "c4": 0.63
+              },
+              {
+                "time": 1.3333,
+                "angle": -3.58
+              }
+            ]
+          },
+          "hand_L": {
+            "rotate": [
+              {
+                "angle": 0.8,
+                "curve": 0.375,
+                "c2": 0.62,
+                "c3": 0.716
+              },
+              {
+                "time": 0.1333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8,
+                "angle": 6.15,
+                "curve": 0.243,
+                "c3": 0.68,
+                "c4": 0.71
+              },
+              {
+                "time": 1.3333,
+                "angle": 0.8
+              }
+            ]
+          },
+          "body": {
+            "rotate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "angle": 3.92,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.3333
+              }
+            ],
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 2.47,
+                "y": 16.66,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.3333
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\r\nChar1_Animation.png\r\nsize: 1607,182\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nbody\r\n  rotate: true\r\n  xy: 1305, 5\r\n  size: 175, 157\r\n  orig: 177, 159\r\n  offset: 1, 1\r\n  index: -1\r\nhand_L\r\n  rotate: true\r\n  xy: 1543, 8\r\n  size: 100, 62\r\n  orig: 102, 64\r\n  offset: 1, 1\r\n  index: -1\r\nhand_R\r\n  rotate: true\r\n  xy: 1464, 8\r\n  size: 100, 77\r\n  orig: 102, 79\r\n  offset: 1, 1\r\n  index: -1\r\nhead\r\n  rotate: false\r\n  xy: 1110, 11\r\n  size: 193, 169\r\n  orig: 195, 171\r\n  offset: 1, 1\r\n  index: -1\r\nsad\r\n  rotate: false\r\n  xy: 835, 2\r\n  size: 126, 44\r\n  orig: 128, 46\r\n  offset: 1, 1\r\n  index: -1\r\ntear1\r\n  rotate: false\r\n  xy: 835, 48\r\n  size: 273, 132\r\n  orig: 275, 134\r\n  offset: 1, 1\r\n  index: -1\r\ntear2\r\n  rotate: false\r\n  xy: 2, 4\r\n  size: 298, 176\r\n  orig: 300, 178\r\n  offset: 1, 1\r\n  index: -1\r\ntear3\r\n  rotate: false\r\n  xy: 302, 16\r\n  size: 260, 164\r\n  orig: 262, 166\r\n  offset: 1, 1\r\n  index: -1\r\ntear4\r\n  rotate: false\r\n  xy: 564, 25\r\n  size: 269, 155\r\n  orig: 271, 157\r\n  offset: 1, 1\r\n  index: -1\r\nwings\r\n  rotate: false\r\n  xy: 1464, 110\r\n  size: 119, 70\r\n  orig: 121, 72\r\n  offset: 1, 1\r\n  index: -1\r\n",
+  "textures": [
+    {
+      "__uuid__": "1efea65b-0f00-4706-a7e6-9632b889e62a"
+    }
+  ],
+  "textureNames": [
+    "Char1_Animation.png"
+  ],
+  "scale": 1
+}

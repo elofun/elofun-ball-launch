@@ -1,0 +1,1642 @@
+{
+  "projectPath": "D:\\EloFun\\BallTouchGame\\zigzag_tv",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "ee014e67-d61c-4e9e-8517-63c1da11e9a3": {
+      "assetMtime": 1714623348037,
+      "metaMtime": 1714623457802
+    },
+    "02aeaaff-4d25-4bee-966a-54ea1d0adcf3": {
+      "assetMtime": 1714623348035,
+      "metaMtime": 1714623457774
+    },
+    "841d91fa-ed69-4ae0-815c-b4eb58577a1d": {
+      "assetMtime": 1714623348035,
+      "metaMtime": 1714623457774
+    },
+    "055bb028-9cc4-43d1-9846-57b78d98116c": {
+      "assetMtime": 1714623348068,
+      "metaMtime": 1714623458267
+    },
+    "a5bee833-9a24-4571-a791-b487ea422310": {
+      "assetMtime": 1714623348068,
+      "metaMtime": 1714623458267
+    },
+    "08f5dc8b-65f7-4de1-a665-f79a49d3fd23": {
+      "assetMtime": 1714623348037,
+      "metaMtime": 1714623457798
+    },
+    "08f88b69-c6e0-4024-bc70-6cd14fe0537c": {
+      "assetMtime": 1714623348037,
+      "metaMtime": 1714623457798
+    },
+    "1cbde49a-6207-4bd2-ae98-43311e4b2ffe": {
+      "assetMtime": 1714623348063,
+      "metaMtime": 1714623458154
+    },
+    "f5a22eaf-eff9-4e96-bdb8-dce56ad0563d": {
+      "assetMtime": 1714623348063,
+      "metaMtime": 1714623458154
+    },
+    "2414e5ee-bf7a-4b9f-a03c-534a19737d90": {
+      "assetMtime": 1714623348044,
+      "metaMtime": 1714623457976
+    },
+    "776d15fa-91de-4228-8dc1-86bf7eacbbda": {
+      "assetMtime": 1714623348044,
+      "metaMtime": 1714623457976
+    },
+    "28f553ea-e0e9-4cf4-aa13-381b0e2065ec": {
+      "assetMtime": 1714623348038,
+      "metaMtime": 1714623457937
+    },
+    "8fe02f44-ad51-42e7-a5c3-4ebb629a635c": {
+      "assetMtime": 1714623348038,
+      "metaMtime": 1714623457937
+    },
+    "3226b342-a3fa-4b27-8204-ea0c3fc6d177": {
+      "assetMtime": 1714623348065,
+      "metaMtime": 1714623458198
+    },
+    "3de12979-57fa-4c36-9973-88cf48cadd51": {
+      "assetMtime": 1714623348065,
+      "metaMtime": 1714623458198
+    },
+    "3721d02d-8a3d-411e-ab03-a3e8ba5263ec": {
+      "assetMtime": 1714623348055,
+      "metaMtime": 1714623457859
+    },
+    "c036642a-3b04-45dc-83bf-7917c6559726": {
+      "assetMtime": 1714623348055,
+      "metaMtime": 1714623457859
+    },
+    "3ab61da1-2c54-4154-ba67-f8d929d07b2b": {
+      "assetMtime": 1714623348043,
+      "metaMtime": 1714623458022
+    },
+    "ddbe312a-5522-4b47-a94a-85cedd024713": {
+      "assetMtime": 1714623348043,
+      "metaMtime": 1714623458022
+    },
+    "3c47feb0-f5a5-44eb-8884-02c4db6f130a": {
+      "assetMtime": 1714623348052,
+      "metaMtime": 1714623458170
+    },
+    "a53ce27e-c98c-4490-ac0a-1d7f60e92be4": {
+      "assetMtime": 1714623348052,
+      "metaMtime": 1714623458170
+    },
+    "3ea242bb-43af-4a1a-8c1f-93bf82cc098d": {
+      "assetMtime": 1714623348047,
+      "metaMtime": 1714623458130
+    },
+    "75978426-e52e-4751-892d-4bc45e4f4e49": {
+      "assetMtime": 1714623348047,
+      "metaMtime": 1714623458130
+    },
+    "3f55ca20-38cb-429d-ac2c-0d296661fe90": {
+      "assetMtime": 1714623348062,
+      "metaMtime": 1714623458141
+    },
+    "954b8482-b594-4dec-88fb-baf1716ce49b": {
+      "assetMtime": 1714623348062,
+      "metaMtime": 1714623458141
+    },
+    "458b131a-3548-46aa-b885-2dc638f8cb2d": {
+      "assetMtime": 1714623348050,
+      "metaMtime": 1714623458103
+    },
+    "6302fd6b-b959-496f-a9bb-69902d15e46d": {
+      "assetMtime": 1714623348050,
+      "metaMtime": 1714623458103
+    },
+    "48373b50-9a2d-476e-a874-7cbc2b02daa2": {
+      "assetMtime": 1714623348066,
+      "metaMtime": 1714623458227
+    },
+    "2f571bde-f21e-4d85-87e9-60191550fa73": {
+      "assetMtime": 1714623348066,
+      "metaMtime": 1714623458227
+    },
+    "56c4d72e-520b-42f1-a7a2-8725d72da5ef": {
+      "assetMtime": 1714623348058,
+      "metaMtime": 1714623457892
+    },
+    "72cbfdf1-1535-418e-80b0-ac2316458a95": {
+      "assetMtime": 1714623348058,
+      "metaMtime": 1714623457892
+    },
+    "620c0ec9-0f31-426b-8683-cb775d983666": {
+      "assetMtime": 1714623348053,
+      "metaMtime": 1714623457822
+    },
+    "ab01c750-d428-4334-9ef3-fddec886d302": {
+      "assetMtime": 1714623348053,
+      "metaMtime": 1714623457822
+    },
+    "66981e7c-1376-43a6-95ae-aa0b26d6df1b": {
+      "assetMtime": 1714623348036,
+      "metaMtime": 1714623457776
+    },
+    "d00d44ec-68b1-48e9-88ee-3148c0d77f22": {
+      "assetMtime": 1714623348036,
+      "metaMtime": 1714623457776
+    },
+    "709b0825-a83c-4479-938f-28cf5880ca91": {
+      "assetMtime": 1714623348041,
+      "metaMtime": 1714623458009
+    },
+    "adccd90e-30d4-475d-9763-927d3612cfe0": {
+      "assetMtime": 1714623348041,
+      "metaMtime": 1714623458009
+    },
+    "70f57d15-5f52-47be-b39b-6d8482857bd7": {
+      "assetMtime": 1714623348041,
+      "metaMtime": 1714623457993
+    },
+    "b1d85e29-50c9-49d9-8898-d4c820b7685b": {
+      "assetMtime": 1714623348041,
+      "metaMtime": 1714623457993
+    },
+    "72f83aed-4ca3-48c8-a4c0-4623a954a598": {
+      "assetMtime": 1714623348038,
+      "metaMtime": 1714623457917
+    },
+    "d80ba832-d4d4-4ba9-b3aa-cb9b3798c81a": {
+      "assetMtime": 1714623348038,
+      "metaMtime": 1714623457917
+    },
+    "73ac127f-8804-44a6-9d5b-2960dbdc0eca": {
+      "assetMtime": 1714623348041,
+      "metaMtime": 1714623458008
+    },
+    "4d27443d-476d-4b10-9f30-8bdab345a417": {
+      "assetMtime": 1714623348041,
+      "metaMtime": 1714623458008
+    },
+    "772515e6-16b8-4c71-813b-23d5b1243b18": {
+      "assetMtime": 1714623348067,
+      "metaMtime": 1714623458243
+    },
+    "dc23825e-3965-4fb3-b2a2-9be3c48dd56d": {
+      "assetMtime": 1714623348067,
+      "metaMtime": 1714623458243
+    },
+    "7795cc2a-0eb3-40d9-acda-db09b96975f8": {
+      "assetMtime": 1714623348067,
+      "metaMtime": 1714623458233
+    },
+    "caa5fdfa-f29f-41dd-9924-1b5677c2db68": {
+      "assetMtime": 1714623348067,
+      "metaMtime": 1714623458233
+    },
+    "785b072f-9678-4993-a998-a43911f1150a": {
+      "assetMtime": 1714623348054,
+      "metaMtime": 1714623457836
+    },
+    "5d2019e6-fa5c-4c0a-8b3c-818caa9005d1": {
+      "assetMtime": 1714623348054,
+      "metaMtime": 1714623457836
+    },
+    "811f587a-429a-4a45-b064-346912252b4a": {
+      "assetMtime": 1714623348057,
+      "metaMtime": 1714623457877
+    },
+    "794f07e6-b621-4fd6-a4dd-11db09ff1562": {
+      "assetMtime": 1714623348057,
+      "metaMtime": 1714623457877
+    },
+    "86e705a9-811e-49ef-871e-b89fb80bd1d5": {
+      "assetMtime": 1714623348042,
+      "metaMtime": 1714623458024
+    },
+    "0c0b05dd-685c-4304-9cb7-de0ce39b6ac1": {
+      "assetMtime": 1714623348042,
+      "metaMtime": 1714623458024
+    },
+    "9e8a6dc5-b0ef-4b0e-b963-71e0002abd75": {
+      "assetMtime": 1714623348045,
+      "metaMtime": 1714623458038
+    },
+    "bb17e872-8557-45a3-87ac-a8c045e11969": {
+      "assetMtime": 1714623348045,
+      "metaMtime": 1714623458038
+    },
+    "a00c96d8-4b5c-49f6-bf83-7cb8bfb1137d": {
+      "assetMtime": 1714623348058,
+      "metaMtime": 1714623457887
+    },
+    "c5127521-1943-47c5-805c-d4b65d10688d": {
+      "assetMtime": 1714623348058,
+      "metaMtime": 1714623457887
+    },
+    "a4addf9e-1425-4b2d-ac3d-694254e41425": {
+      "assetMtime": 1714623348064,
+      "metaMtime": 1714623458196
+    },
+    "26bbbbe2-841e-4ae8-b6c5-ad0b4c2f6e95": {
+      "assetMtime": 1714623348064,
+      "metaMtime": 1714623458196
+    },
+    "a739f787-cc01-4a81-ba0a-581f07eccca1": {
+      "assetMtime": 1714623348039,
+      "metaMtime": 1714623457978
+    },
+    "2c42dfff-a5e0-4ae3-bf8b-b0763aa18573": {
+      "assetMtime": 1714623348039,
+      "metaMtime": 1714623457978
+    },
+    "a99dd8e5-783a-4a80-bc43-6e12a5e4aca1": {
+      "assetMtime": 1714623348056,
+      "metaMtime": 1714623457850
+    },
+    "2ca0152e-e97f-4c20-9674-12f7a54ed062": {
+      "assetMtime": 1714623348056,
+      "metaMtime": 1714623457850
+    },
+    "a9bad547-be74-4394-bfa2-d9aabac3a936": {
+      "assetMtime": 1714623348056,
+      "metaMtime": 1714623457865
+    },
+    "6f6f0d71-c636-4f00-a349-db83de1f8b5a": {
+      "assetMtime": 1714623348056,
+      "metaMtime": 1714623457865
+    },
+    "aa887cef-6111-4eb6-9060-c7a93fe3af65": {
+      "assetMtime": 1714623348037,
+      "metaMtime": 1714623457820
+    },
+    "c38ea3a3-9ffa-496d-8a46-560e327bc432": {
+      "assetMtime": 1714623348037,
+      "metaMtime": 1714623457820
+    },
+    "ad9d82a3-965a-4671-999c-2ca9f25cc223": {
+      "assetMtime": 1714623348057,
+      "metaMtime": 1714623457872
+    },
+    "4150e869-3cdf-4878-98ca-074096b57709": {
+      "assetMtime": 1714623348057,
+      "metaMtime": 1714623457872
+    },
+    "b7f0df99-b706-469c-99e7-1c64c086111b": {
+      "assetMtime": 1714623348062,
+      "metaMtime": 1714623458054
+    },
+    "efad2744-faca-4da8-9817-7f04628726b8": {
+      "assetMtime": 1714623348062,
+      "metaMtime": 1714623458054
+    },
+    "ba66b08c-e442-41e4-ac6c-f10fcca1124c": {
+      "assetMtime": 1714623348049,
+      "metaMtime": 1714623458099
+    },
+    "625b0eab-e3cd-497f-a80d-ddb075ec5872": {
+      "assetMtime": 1714623348049,
+      "metaMtime": 1714623458099
+    },
+    "bf5a3680-fa8f-4e62-8fe2-56745af57ace": {
+      "assetMtime": 1714623348060,
+      "metaMtime": 1714623457905
+    },
+    "ff979c2d-c3ea-4d85-9e67-036d39229a61": {
+      "assetMtime": 1714623348060,
+      "metaMtime": 1714623457905
+    },
+    "c1af6efe-0ecb-4b35-badd-5f7a97dc7868": {
+      "assetMtime": 1714623348059,
+      "metaMtime": 1714623457904
+    },
+    "b1039056-8f07-4e68-af4f-385c6ec0720c": {
+      "assetMtime": 1714623348059,
+      "metaMtime": 1714623457904
+    },
+    "d30a585b-84c6-4209-9a3b-bb7bf146c5a8": {
+      "assetMtime": 1714623348048,
+      "metaMtime": 1714623458086
+    },
+    "14115e84-0b91-4b40-a341-7faf23bb42e4": {
+      "assetMtime": 1714623348048,
+      "metaMtime": 1714623458086
+    },
+    "d5c383d8-b040-45c4-9ece-14f00b9de914": {
+      "assetMtime": 1714623348049,
+      "metaMtime": 1714623458087
+    },
+    "a7a27a82-5c2e-42f6-b19a-f2ad0d7109b2": {
+      "assetMtime": 1714623348049,
+      "metaMtime": 1714623458087
+    },
+    "d5faa9d6-5660-4f64-bc21-f0ccc73e12f3": {
+      "assetMtime": 1714623348067,
+      "metaMtime": 1714623458246
+    },
+    "85a3f83d-8606-40f6-b80d-920fab37a238": {
+      "assetMtime": 1714623348067,
+      "metaMtime": 1714623458246
+    },
+    "d7d040be-363f-422e-b75e-9235fb6e4a94": {
+      "assetMtime": 1714623348069,
+      "metaMtime": 1714623458168
+    },
+    "f64799dd-0a3a-42fd-aed9-6a06e6a53299": {
+      "assetMtime": 1714623348069,
+      "metaMtime": 1714623458168
+    },
+    "de6c76ab-492a-4a9c-b978-4503e28cf46e": {
+      "assetMtime": 1714623348039,
+      "metaMtime": 1714623457963
+    },
+    "5e375930-3dd9-4069-8838-dab04a43ead9": {
+      "assetMtime": 1714623348039,
+      "metaMtime": 1714623457963
+    },
+    "dec589fb-ce06-4dc2-88f2-4a0afc50eac3": {
+      "assetMtime": 1714623348065,
+      "metaMtime": 1714623458210
+    },
+    "c8b0b5a6-6cc5-4178-a87d-fbf8202f71ce": {
+      "assetMtime": 1714623348065,
+      "metaMtime": 1714623458210
+    },
+    "def597ea-7fb1-417e-a590-881fa96ff6d7": {
+      "assetMtime": 1714623348064,
+      "metaMtime": 1714623458184
+    },
+    "ebf3bb9b-e406-475a-b857-fba88d7e41d3": {
+      "assetMtime": 1714623348064,
+      "metaMtime": 1714623458184
+    },
+    "e00401c5-ea27-4dbb-92b6-6be16ac7c77b": {
+      "assetMtime": 1714623348036,
+      "metaMtime": 1714623457801
+    },
+    "f3ef184e-d780-4adb-b069-52ca0b4db3fb": {
+      "assetMtime": 1714623348036,
+      "metaMtime": 1714623457801
+    },
+    "e6ea2cc0-22ae-4ca1-879a-c3a50413b9bd": {
+      "assetMtime": 1714623348062,
+      "metaMtime": 1714623457943
+    },
+    "ea095c67-6d0c-40c8-b071-0f69ba267628": {
+      "assetMtime": 1714623348062,
+      "metaMtime": 1714623457943
+    },
+    "eb9ce486-9e7e-4d17-a097-082e1b214e32": {
+      "assetMtime": 1714623348064,
+      "metaMtime": 1714623458185
+    },
+    "fdca9a71-5428-4c93-8f07-3f3932f9bc7d": {
+      "assetMtime": 1714623348064,
+      "metaMtime": 1714623458185
+    },
+    "f48a9119-a2cb-4897-be45-a822fbf6901d": {
+      "assetMtime": 1714623348048,
+      "metaMtime": 1714623458070
+    },
+    "7471d9b4-c5b6-438c-826a-c7dbf7dc53e5": {
+      "assetMtime": 1714623348048,
+      "metaMtime": 1714623458070
+    },
+    "ff4c5028-3a81-4c94-a060-bae84239474e": {
+      "assetMtime": 1714623348066,
+      "metaMtime": 1714623458220
+    },
+    "dac07aff-f854-43ad-96b3-e42b46b44352": {
+      "assetMtime": 1714623348066,
+      "metaMtime": 1714623458220
+    },
+    "ffdbbe07-cf12-4e7e-aef3-9b718191df0f": {
+      "assetMtime": 1714623348054,
+      "metaMtime": 1714623457837
+    },
+    "027d5933-9a04-45d1-b0c8-54e6720408ed": {
+      "assetMtime": 1714623348054,
+      "metaMtime": 1714623457837
+    }
+  },
+  "result": {
+    "name": "AutoAtlas-4",
+    "width": 684,
+    "height": 546,
+    "ver": "1.2.1",
+    "uuid": "ee014e67-d61c-4e9e-8517-63c1da11e9a3",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "QR_Box",
+            "uuid": "458b131a-3548-46aa-b885-2dc638f8cb2d",
+            "textureUuid": "6302fd6b-b959-496f-a9bb-69902d15e46d",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_12.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 649,
+              "height": 650,
+              "rotatedWidth": 649,
+              "rotatedHeight": 650
+            },
+            "rawWidth": 651,
+            "rawHeight": 652,
+            "width": 655,
+            "height": 656,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/63/6302fd6b-b959-496f-a9bb-69902d15e46d.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 655,
+            "rotatedHeight": 656
+          },
+          {
+            "name": "QR_Txt",
+            "uuid": "48373b50-9a2d-476e-a874-7cbc2b02daa2",
+            "textureUuid": "2f571bde-f21e-4d85-87e9-60191550fa73",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_13.png",
+            "trim": {
+              "x": 3,
+              "y": 659,
+              "width": 769,
+              "height": 283,
+              "rotatedWidth": 769,
+              "rotatedHeight": 283
+            },
+            "rawWidth": 769,
+            "rawHeight": 284,
+            "width": 775,
+            "height": 289,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/2f/2f571bde-f21e-4d85-87e9-60191550fa73.png",
+            "x": 0,
+            "y": 656,
+            "rotatedWidth": 775,
+            "rotatedHeight": 289
+          },
+          {
+            "name": "Txt_RoomCode",
+            "uuid": "d5faa9d6-5660-4f64-bc21-f0ccc73e12f3",
+            "textureUuid": "85a3f83d-8606-40f6-b80d-920fab37a238",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_40.png",
+            "trim": {
+              "x": 658,
+              "y": 3,
+              "width": 639,
+              "height": 320,
+              "rotatedWidth": 320,
+              "rotatedHeight": 639
+            },
+            "rawWidth": 639,
+            "rawHeight": 320,
+            "width": 645,
+            "height": 326,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/85/85a3f83d-8606-40f6-b80d-920fab37a238.png",
+            "x": 655,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 326,
+            "rotatedHeight": 645
+          },
+          {
+            "name": "singleColor",
+            "uuid": "3f55ca20-38cb-429d-ac2c-0d296661fe90",
+            "textureUuid": "954b8482-b594-4dec-88fb-baf1716ce49b",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_11.png",
+            "trim": {
+              "x": 658,
+              "y": 648,
+              "width": 2,
+              "height": 2,
+              "rotatedWidth": 2,
+              "rotatedHeight": 2
+            },
+            "rawWidth": 2,
+            "rawHeight": 2,
+            "width": 8,
+            "height": 8,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/95/954b8482-b594-4dec-88fb-baf1716ce49b.png",
+            "x": 655,
+            "y": 645,
+            "rotatedWidth": 8,
+            "rotatedHeight": 8
+          },
+          {
+            "name": "Khung_Character",
+            "uuid": "d5c383d8-b040-45c4-9ece-14f00b9de914",
+            "textureUuid": "a7a27a82-5c2e-42f6-b19a-f2ad0d7109b2",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_39.png",
+            "trim": {
+              "x": 778,
+              "y": 648,
+              "width": 234,
+              "height": 333,
+              "rotatedWidth": 234,
+              "rotatedHeight": 333
+            },
+            "rawWidth": 234,
+            "rawHeight": 333,
+            "width": 240,
+            "height": 339,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/a7/a7a27a82-5c2e-42f6-b19a-f2ad0d7109b2.png",
+            "x": 775,
+            "y": 645,
+            "rotatedWidth": 240,
+            "rotatedHeight": 339
+          },
+          {
+            "name": "Người chơi 3",
+            "uuid": "dec589fb-ce06-4dc2-88f2-4a0afc50eac3",
+            "textureUuid": "c8b0b5a6-6cc5-4178-a87d-fbf8202f71ce",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_43.png",
+            "trim": {
+              "x": 984,
+              "y": 3,
+              "width": 194,
+              "height": 33,
+              "rotatedWidth": 33,
+              "rotatedHeight": 194
+            },
+            "rawWidth": 194,
+            "rawHeight": 33,
+            "width": 200,
+            "height": 39,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/c8/c8b0b5a6-6cc5-4178-a87d-fbf8202f71ce.png",
+            "x": 981,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 39,
+            "rotatedHeight": 200
+          },
+          {
+            "name": "Người chơi 2",
+            "uuid": "3226b342-a3fa-4b27-8204-ea0c3fc6d177",
+            "textureUuid": "3de12979-57fa-4c36-9973-88cf48cadd51",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_6.png",
+            "trim": {
+              "x": 984,
+              "y": 203,
+              "width": 193,
+              "height": 33,
+              "rotatedWidth": 33,
+              "rotatedHeight": 193
+            },
+            "rawWidth": 193,
+            "rawHeight": 33,
+            "width": 199,
+            "height": 39,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/3d/3de12979-57fa-4c36-9973-88cf48cadd51.png",
+            "x": 981,
+            "y": 200,
+            "rotated": true,
+            "rotatedWidth": 39,
+            "rotatedHeight": 199
+          },
+          {
+            "name": "Người chơi 1",
+            "uuid": "a4addf9e-1425-4b2d-ac3d-694254e41425",
+            "textureUuid": "26bbbbe2-841e-4ae8-b6c5-ad0b4c2f6e95",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_28.png",
+            "trim": {
+              "x": 984,
+              "y": 402,
+              "width": 186,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 186
+            },
+            "rawWidth": 186,
+            "rawHeight": 32,
+            "width": 192,
+            "height": 38,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/26/26bbbbe2-841e-4ae8-b6c5-ad0b4c2f6e95.png",
+            "x": 981,
+            "y": 399,
+            "rotated": true,
+            "rotatedWidth": 38,
+            "rotatedHeight": 192
+          },
+          {
+            "name": "Đang chờ..",
+            "uuid": "d7d040be-363f-422e-b75e-9235fb6e4a94",
+            "textureUuid": "f64799dd-0a3a-42fd-aed9-6a06e6a53299",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_41.png",
+            "trim": {
+              "x": 3,
+              "y": 987,
+              "width": 178,
+              "height": 33,
+              "rotatedWidth": 178,
+              "rotatedHeight": 33
+            },
+            "rawWidth": 179,
+            "rawHeight": 33,
+            "width": 184,
+            "height": 39,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/f6/f64799dd-0a3a-42fd-aed9-6a06e6a53299.png",
+            "x": 0,
+            "y": 984,
+            "rotatedWidth": 184,
+            "rotatedHeight": 39
+          },
+          {
+            "name": "Waiting",
+            "uuid": "bf5a3680-fa8f-4e62-8fe2-56745af57ace",
+            "textureUuid": "ff979c2d-c3ea-4d85-9e67-036d39229a61",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_36.png",
+            "trim": {
+              "x": 3,
+              "y": 948,
+              "width": 154,
+              "height": 32,
+              "rotatedWidth": 154,
+              "rotatedHeight": 32
+            },
+            "rawWidth": 154,
+            "rawHeight": 32,
+            "width": 160,
+            "height": 38,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/ff/ff979c2d-c3ea-4d85-9e67-036d39229a61.png",
+            "x": 0,
+            "y": 945,
+            "rotatedWidth": 160,
+            "rotatedHeight": 38
+          },
+          {
+            "name": "Player3",
+            "uuid": "811f587a-429a-4a45-b064-346912252b4a",
+            "textureUuid": "794f07e6-b621-4fd6-a4dd-11db09ff1562",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_24.png",
+            "trim": {
+              "x": 163,
+              "y": 948,
+              "width": 121,
+              "height": 21,
+              "rotatedWidth": 121,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 194,
+            "rawHeight": 33,
+            "width": 127,
+            "height": 27,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/79/794f07e6-b621-4fd6-a4dd-11db09ff1562.png",
+            "x": 160,
+            "y": 945,
+            "rotatedWidth": 127,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "Logo",
+            "uuid": "ba66b08c-e442-41e4-ac6c-f10fcca1124c",
+            "textureUuid": "625b0eab-e3cd-497f-a80d-ddb075ec5872",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_35.png",
+            "trim": {
+              "x": 187,
+              "y": 975,
+              "width": 181,
+              "height": 43,
+              "rotatedWidth": 181,
+              "rotatedHeight": 43
+            },
+            "rawWidth": 181,
+            "rawHeight": 43,
+            "width": 187,
+            "height": 49,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/62/625b0eab-e3cd-497f-a80d-ddb075ec5872.png",
+            "x": 184,
+            "y": 972,
+            "rotatedWidth": 187,
+            "rotatedHeight": 49
+          },
+          {
+            "name": "Player2",
+            "uuid": "ad9d82a3-965a-4671-999c-2ca9f25cc223",
+            "textureUuid": "4150e869-3cdf-4878-98ca-074096b57709",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_33.png",
+            "trim": {
+              "x": 290,
+              "y": 948,
+              "width": 120,
+              "height": 21,
+              "rotatedWidth": 120,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 193,
+            "rawHeight": 33,
+            "width": 126,
+            "height": 27,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/41/4150e869-3cdf-4878-98ca-074096b57709.png",
+            "x": 287,
+            "y": 945,
+            "rotatedWidth": 126,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "LOGO_ELOFUN",
+            "uuid": "3ea242bb-43af-4a1a-8c1f-93bf82cc098d",
+            "textureUuid": "75978426-e52e-4751-892d-4bc45e4f4e49",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_10.png",
+            "trim": {
+              "x": 374,
+              "y": 975,
+              "width": 140,
+              "height": 34,
+              "rotatedWidth": 140,
+              "rotatedHeight": 34
+            },
+            "rawWidth": 140,
+            "rawHeight": 34,
+            "width": 146,
+            "height": 40,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/75/75978426-e52e-4751-892d-4bc45e4f4e49.png",
+            "x": 371,
+            "y": 972,
+            "rotatedWidth": 146,
+            "rotatedHeight": 40
+          },
+          {
+            "name": "Player1",
+            "uuid": "a9bad547-be74-4394-bfa2-d9aabac3a936",
+            "textureUuid": "6f6f0d71-c636-4f00-a349-db83de1f8b5a",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_31.png",
+            "trim": {
+              "x": 416,
+              "y": 948,
+              "width": 114,
+              "height": 21,
+              "rotatedWidth": 114,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 186,
+            "rawHeight": 32,
+            "width": 120,
+            "height": 27,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/6f/6f6f0d71-c636-4f00-a349-db83de1f8b5a.png",
+            "x": 413,
+            "y": 945,
+            "rotatedWidth": 120,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "3rd",
+            "uuid": "de6c76ab-492a-4a9c-b978-4503e28cf46e",
+            "textureUuid": "5e375930-3dd9-4069-8838-dab04a43ead9",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_42.png",
+            "trim": {
+              "x": 536,
+              "y": 948,
+              "width": 88,
+              "height": 67,
+              "rotatedWidth": 88,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 89,
+            "rawHeight": 67,
+            "width": 94,
+            "height": 73,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/5e/5e375930-3dd9-4069-8838-dab04a43ead9.png",
+            "x": 533,
+            "y": 945,
+            "rotatedWidth": 94,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "Item",
+            "uuid": "a739f787-cc01-4a81-ba0a-581f07eccca1",
+            "textureUuid": "2c42dfff-a5e0-4ae3-bf8b-b0763aa18573",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_29.png",
+            "trim": {
+              "x": 630,
+              "y": 948,
+              "width": 49,
+              "height": 59,
+              "rotatedWidth": 49,
+              "rotatedHeight": 59
+            },
+            "rawWidth": 49,
+            "rawHeight": 59,
+            "width": 55,
+            "height": 65,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/2c/2c42dfff-a5e0-4ae3-bf8b-b0763aa18573.png",
+            "x": 627,
+            "y": 945,
+            "rotatedWidth": 55,
+            "rotatedHeight": 65
+          }
+        ],
+        "width": 1020,
+        "height": 1023,
+        "name": "AutoAtlas-1",
+        "imagePath": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "QR_Txt",
+            "uuid": "a00c96d8-4b5c-49f6-bf83-7cb8bfb1137d",
+            "textureUuid": "c5127521-1943-47c5-805c-d4b65d10688d",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_27.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 768,
+              "height": 283,
+              "rotatedWidth": 768,
+              "rotatedHeight": 283
+            },
+            "rawWidth": 769,
+            "rawHeight": 284,
+            "width": 774,
+            "height": 289,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/c5/c5127521-1943-47c5-805c-d4b65d10688d.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 774,
+            "rotatedHeight": 289
+          },
+          {
+            "name": "Play again",
+            "uuid": "a99dd8e5-783a-4a80-bc43-6e12a5e4aca1",
+            "textureUuid": "2ca0152e-e97f-4c20-9674-12f7a54ed062",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_30.png",
+            "trim": {
+              "x": 777,
+              "y": 3,
+              "width": 374,
+              "height": 153,
+              "rotatedWidth": 153,
+              "rotatedHeight": 374
+            },
+            "rawWidth": 374,
+            "rawHeight": 153,
+            "width": 380,
+            "height": 159,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/2c/2ca0152e-e97f-4c20-9674-12f7a54ed062.png",
+            "x": 774,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 159,
+            "rotatedHeight": 380
+          },
+          {
+            "name": "Score_bar",
+            "uuid": "3ab61da1-2c54-4154-ba67-f8d929d07b2b",
+            "textureUuid": "ddbe312a-5522-4b47-a94a-85cedd024713",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_8.png",
+            "trim": {
+              "x": 936,
+              "y": 3,
+              "width": 244,
+              "height": 79,
+              "rotatedWidth": 79,
+              "rotatedHeight": 244
+            },
+            "rawWidth": 244,
+            "rawHeight": 79,
+            "width": 250,
+            "height": 85,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/dd/ddbe312a-5522-4b47-a94a-85cedd024713.png",
+            "x": 933,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 85,
+            "rotatedHeight": 250
+          },
+          {
+            "name": "2nd",
+            "uuid": "28f553ea-e0e9-4cf4-aa13-381b0e2065ec",
+            "textureUuid": "8fe02f44-ad51-42e7-a5c3-4ebb629a635c",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_5.png",
+            "trim": {
+              "x": 936,
+              "y": 253,
+              "width": 98,
+              "height": 76,
+              "rotatedWidth": 76,
+              "rotatedHeight": 98
+            },
+            "rawWidth": 98,
+            "rawHeight": 76,
+            "width": 104,
+            "height": 82,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/8f/8fe02f44-ad51-42e7-a5c3-4ebb629a635c.png",
+            "x": 933,
+            "y": 250,
+            "rotated": true,
+            "rotatedWidth": 82,
+            "rotatedHeight": 104
+          },
+          {
+            "name": "Glow",
+            "uuid": "f48a9119-a2cb-4897-be45-a822fbf6901d",
+            "textureUuid": "7471d9b4-c5b6-438c-826a-c7dbf7dc53e5",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_48.png",
+            "trim": {
+              "x": 3,
+              "y": 292,
+              "width": 466,
+              "height": 465,
+              "rotatedWidth": 465,
+              "rotatedHeight": 466
+            },
+            "rawWidth": 549,
+            "rawHeight": 484,
+            "width": 472,
+            "height": 471,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/74/7471d9b4-c5b6-438c-826a-c7dbf7dc53e5.png",
+            "x": 0,
+            "y": 289,
+            "rotated": true,
+            "rotatedWidth": 471,
+            "rotatedHeight": 472
+          },
+          {
+            "name": "Khung_Character",
+            "uuid": "86e705a9-811e-49ef-871e-b89fb80bd1d5",
+            "textureUuid": "0c0b05dd-685c-4304-9cb7-de0ce39b6ac1",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_25.png",
+            "trim": {
+              "x": 474,
+              "y": 292,
+              "width": 274,
+              "height": 419,
+              "rotatedWidth": 274,
+              "rotatedHeight": 419
+            },
+            "rawWidth": 274,
+            "rawHeight": 419,
+            "width": 280,
+            "height": 425,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/0c/0c0b05dd-685c-4304-9cb7-de0ce39b6ac1.png",
+            "x": 471,
+            "y": 289,
+            "rotatedWidth": 280,
+            "rotatedHeight": 425
+          },
+          {
+            "name": "Khung_2nd",
+            "uuid": "73ac127f-8804-44a6-9d5b-2960dbdc0eca",
+            "textureUuid": "4d27443d-476d-4b10-9f30-8bdab345a417",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_20.png",
+            "trim": {
+              "x": 474,
+              "y": 717,
+              "width": 255,
+              "height": 280,
+              "rotatedWidth": 255,
+              "rotatedHeight": 280
+            },
+            "rawWidth": 255,
+            "rawHeight": 280,
+            "width": 261,
+            "height": 286,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/4d/4d27443d-476d-4b10-9f30-8bdab345a417.png",
+            "x": 471,
+            "y": 714,
+            "rotatedWidth": 261,
+            "rotatedHeight": 286
+          },
+          {
+            "name": "Khung_3rd",
+            "uuid": "709b0825-a83c-4479-938f-28cf5880ca91",
+            "textureUuid": "adccd90e-30d4-475d-9763-927d3612cfe0",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_17.png",
+            "trim": {
+              "x": 735,
+              "y": 717,
+              "width": 254,
+              "height": 280,
+              "rotatedWidth": 280,
+              "rotatedHeight": 254
+            },
+            "rawWidth": 255,
+            "rawHeight": 280,
+            "width": 260,
+            "height": 286,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/ad/adccd90e-30d4-475d-9763-927d3612cfe0.png",
+            "x": 732,
+            "y": 714,
+            "rotated": true,
+            "rotatedWidth": 286,
+            "rotatedHeight": 260
+          },
+          {
+            "name": "Continue_To_Play",
+            "uuid": "1cbde49a-6207-4bd2-ae98-43311e4b2ffe",
+            "textureUuid": "f5a22eaf-eff9-4e96-bdb8-dce56ad0563d",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_3.png",
+            "trim": {
+              "x": 754,
+              "y": 383,
+              "width": 327,
+              "height": 153,
+              "rotatedWidth": 153,
+              "rotatedHeight": 327
+            },
+            "rawWidth": 327,
+            "rawHeight": 153,
+            "width": 333,
+            "height": 159,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/f5/f5a22eaf-eff9-4e96-bdb8-dce56ad0563d.png",
+            "x": 751,
+            "y": 380,
+            "rotated": true,
+            "rotatedWidth": 159,
+            "rotatedHeight": 333
+          },
+          {
+            "name": "1st",
+            "uuid": "72f83aed-4ca3-48c8-a4c0-4623a954a598",
+            "textureUuid": "d80ba832-d4d4-4ba9-b3aa-cb9b3798c81a",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_19.png",
+            "trim": {
+              "x": 913,
+              "y": 383,
+              "width": 124,
+              "height": 94,
+              "rotatedWidth": 94,
+              "rotatedHeight": 124
+            },
+            "rawWidth": 124,
+            "rawHeight": 94,
+            "width": 130,
+            "height": 100,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/d8/d80ba832-d4d4-4ba9-b3aa-cb9b3798c81a.png",
+            "x": 910,
+            "y": 380,
+            "rotated": true,
+            "rotatedWidth": 100,
+            "rotatedHeight": 130
+          },
+          {
+            "name": "GameName",
+            "uuid": "785b072f-9678-4993-a998-a43911f1150a",
+            "textureUuid": "5d2019e6-fa5c-4c0a-8b3c-818caa9005d1",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_23.png",
+            "trim": {
+              "x": 3,
+              "y": 764,
+              "width": 395,
+              "height": 140,
+              "rotatedWidth": 395,
+              "rotatedHeight": 140
+            },
+            "rawWidth": 397,
+            "rawHeight": 141,
+            "width": 401,
+            "height": 146,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/5d/5d2019e6-fa5c-4c0a-8b3c-818caa9005d1.png",
+            "x": 0,
+            "y": 761,
+            "rotatedWidth": 401,
+            "rotatedHeight": 146
+          },
+          {
+            "name": "MATKETNOI",
+            "uuid": "9e8a6dc5-b0ef-4b0e-b963-71e0002abd75",
+            "textureUuid": "bb17e872-8557-45a3-87ac-a8c045e11969",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212575_image_26.png",
+            "trim": {
+              "x": 3,
+              "y": 910,
+              "width": 360,
+              "height": 107,
+              "rotatedWidth": 360,
+              "rotatedHeight": 107
+            },
+            "rawWidth": 360,
+            "rawHeight": 107,
+            "width": 366,
+            "height": 113,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/bb/bb17e872-8557-45a3-87ac-a8c045e11969.png",
+            "x": 0,
+            "y": 907,
+            "rotatedWidth": 366,
+            "rotatedHeight": 113
+          }
+        ],
+        "width": 1018,
+        "height": 1020,
+        "name": "AutoAtlas-2",
+        "imagePath": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\AutoAtlas-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\compressed\\AutoAtlas-2"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "Txt_RoomCode",
+            "uuid": "c1af6efe-0ecb-4b35-badd-5f7a97dc7868",
+            "textureUuid": "b1039056-8f07-4e68-af4f-385c6ec0720c",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_37.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 630,
+              "height": 320,
+              "rotatedWidth": 630,
+              "rotatedHeight": 320
+            },
+            "rawWidth": 630,
+            "rawHeight": 320,
+            "width": 636,
+            "height": 326,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/b1/b1039056-8f07-4e68-af4f-385c6ec0720c.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 636,
+            "rotatedHeight": 326
+          },
+          {
+            "name": "Start1_BTN",
+            "uuid": "772515e6-16b8-4c71-813b-23d5b1243b18",
+            "textureUuid": "dc23825e-3965-4fb3-b2a2-9be3c48dd56d",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_21.png",
+            "trim": {
+              "x": 639,
+              "y": 3,
+              "width": 581,
+              "height": 330,
+              "rotatedWidth": 330,
+              "rotatedHeight": 581
+            },
+            "rawWidth": 583,
+            "rawHeight": 330,
+            "width": 587,
+            "height": 336,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/dc/dc23825e-3965-4fb3-b2a2-9be3c48dd56d.png",
+            "x": 636,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 336,
+            "rotatedHeight": 587
+          },
+          {
+            "name": "Start_BTN",
+            "uuid": "56c4d72e-520b-42f1-a7a2-8725d72da5ef",
+            "textureUuid": "72cbfdf1-1535-418e-80b0-ac2316458a95",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_14.png",
+            "trim": {
+              "x": 3,
+              "y": 329,
+              "width": 580,
+              "height": 328,
+              "rotatedWidth": 580,
+              "rotatedHeight": 328
+            },
+            "rawWidth": 583,
+            "rawHeight": 330,
+            "width": 586,
+            "height": 334,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/72/72cbfdf1-1535-418e-80b0-ac2316458a95.png",
+            "x": 0,
+            "y": 326,
+            "rotatedWidth": 586,
+            "rotatedHeight": 334
+          },
+          {
+            "name": "Khung_1st",
+            "uuid": "70f57d15-5f52-47be-b39b-6d8482857bd7",
+            "textureUuid": "b1d85e29-50c9-49d9-8898-d4c820b7685b",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_18.png",
+            "trim": {
+              "x": 589,
+              "y": 590,
+              "width": 311,
+              "height": 344,
+              "rotatedWidth": 311,
+              "rotatedHeight": 344
+            },
+            "rawWidth": 311,
+            "rawHeight": 344,
+            "width": 317,
+            "height": 350,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/b1/b1d85e29-50c9-49d9-8898-d4c820b7685b.png",
+            "x": 586,
+            "y": 587,
+            "rotatedWidth": 317,
+            "rotatedHeight": 350
+          },
+          {
+            "name": "Start_BTN",
+            "uuid": "7795cc2a-0eb3-40d9-acda-db09b96975f8",
+            "textureUuid": "caa5fdfa-f29f-41dd-9924-1b5677c2db68",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_22.png",
+            "trim": {
+              "x": 3,
+              "y": 663,
+              "width": 549,
+              "height": 311,
+              "rotatedWidth": 549,
+              "rotatedHeight": 311
+            },
+            "rawWidth": 549,
+            "rawHeight": 311,
+            "width": 555,
+            "height": 317,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/ca/caa5fdfa-f29f-41dd-9924-1b5677c2db68.png",
+            "x": 0,
+            "y": 660,
+            "rotatedWidth": 555,
+            "rotatedHeight": 317
+          }
+        ],
+        "width": 972,
+        "height": 977,
+        "name": "AutoAtlas-3",
+        "imagePath": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\AutoAtlas-3.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\compressed\\AutoAtlas-3"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "loading_icon",
+            "uuid": "b7f0df99-b706-469c-99e7-1c64c086111b",
+            "textureUuid": "efad2744-faca-4da8-9817-7f04628726b8",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_34.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 133,
+              "height": 133,
+              "rotatedWidth": 133,
+              "rotatedHeight": 133
+            },
+            "rawWidth": 137,
+            "rawHeight": 137,
+            "width": 139,
+            "height": 139,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/ef/efad2744-faca-4da8-9817-7f04628726b8.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 139,
+            "rotatedHeight": 139
+          },
+          {
+            "name": "GameName",
+            "uuid": "eb9ce486-9e7e-4d17-a097-082e1b214e32",
+            "textureUuid": "fdca9a71-5428-4c93-8f07-3f3932f9bc7d",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_47.png",
+            "trim": {
+              "x": 3,
+              "y": 142,
+              "width": 207,
+              "height": 141,
+              "rotatedWidth": 207,
+              "rotatedHeight": 141
+            },
+            "rawWidth": 209,
+            "rawHeight": 141,
+            "width": 213,
+            "height": 147,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/fd/fdca9a71-5428-4c93-8f07-3f3932f9bc7d.png",
+            "x": 0,
+            "y": 139,
+            "rotatedWidth": 213,
+            "rotatedHeight": 147
+          },
+          {
+            "name": "Home",
+            "uuid": "def597ea-7fb1-417e-a590-881fa96ff6d7",
+            "textureUuid": "ebf3bb9b-e406-475a-b857-fba88d7e41d3",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_44.png",
+            "trim": {
+              "x": 216,
+              "y": 3,
+              "width": 327,
+              "height": 153,
+              "rotatedWidth": 153,
+              "rotatedHeight": 327
+            },
+            "rawWidth": 327,
+            "rawHeight": 153,
+            "width": 333,
+            "height": 159,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/eb/ebf3bb9b-e406-475a-b857-fba88d7e41d3.png",
+            "x": 213,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 159,
+            "rotatedHeight": 333
+          },
+          {
+            "name": "Home",
+            "uuid": "ffdbbe07-cf12-4e7e-aef3-9b718191df0f",
+            "textureUuid": "027d5933-9a04-45d1-b0c8-54e6720408ed",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212578_image_50.png",
+            "trim": {
+              "x": 3,
+              "y": 336,
+              "width": 327,
+              "height": 153,
+              "rotatedWidth": 327,
+              "rotatedHeight": 153
+            },
+            "rawWidth": 327,
+            "rawHeight": 153,
+            "width": 333,
+            "height": 159,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/02/027d5933-9a04-45d1-b0c8-54e6720408ed.png",
+            "x": 0,
+            "y": 333,
+            "rotatedWidth": 333,
+            "rotatedHeight": 159
+          },
+          {
+            "name": "Continue_To_Play",
+            "uuid": "620c0ec9-0f31-426b-8683-cb775d983666",
+            "textureUuid": "ab01c750-d428-4334-9ef3-fddec886d302",
+            "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_15.png",
+            "trim": {
+              "x": 375,
+              "y": 3,
+              "width": 540,
+              "height": 306,
+              "rotatedWidth": 306,
+              "rotatedHeight": 540
+            },
+            "rawWidth": 549,
+            "rawHeight": 311,
+            "width": 546,
+            "height": 312,
+            "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/ab/ab01c750-d428-4334-9ef3-fddec886d302.png",
+            "x": 372,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 312,
+            "rotatedHeight": 546
+          }
+        ],
+        "width": 684,
+        "height": 546,
+        "name": "AutoAtlas-4",
+        "imagePath": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\AutoAtlas-4.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\TexturePacker\\build\\native\\assets\\Textures\\AutoAtlas.pac\\compressed\\AutoAtlas-4"
+        }
+      }
+    ],
+    "unpackedTextures": [
+      {
+        "name": "BG",
+        "uuid": "02aeaaff-4d25-4bee-966a-54ea1d0adcf3",
+        "textureUuid": "841d91fa-ed69-4ae0-815c-b4eb58577a1d",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212572_image_0.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "rotatedWidth": 1920,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 1920,
+        "rawHeight": 1080,
+        "width": 1926,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/84/841d91fa-ed69-4ae0-815c-b4eb58577a1d.png"
+      },
+      {
+        "name": "ZigZac_Scan_TV",
+        "uuid": "055bb028-9cc4-43d1-9846-57b78d98116c",
+        "textureUuid": "a5bee833-9a24-4571-a791-b487ea422310",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212572_image_1.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "rotatedWidth": 1920,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 1920,
+        "rawHeight": 1080,
+        "width": 1926,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/a5/a5bee833-9a24-4571-a791-b487ea422310.jpg"
+      },
+      {
+        "name": "Map2",
+        "uuid": "08f5dc8b-65f7-4de1-a665-f79a49d3fd23",
+        "textureUuid": "08f88b69-c6e0-4024-bc70-6cd14fe0537c",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_2.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 603,
+          "height": 1080,
+          "rotatedWidth": 603,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 603,
+        "rawHeight": 1080,
+        "width": 609,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/08/08f88b69-c6e0-4024-bc70-6cd14fe0537c.png"
+      },
+      {
+        "name": "ef",
+        "uuid": "2414e5ee-bf7a-4b9f-a03c-534a19737d90",
+        "textureUuid": "776d15fa-91de-4228-8dc1-86bf7eacbbda",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_4.png",
+        "trim": {
+          "x": 2,
+          "y": 1,
+          "width": 1271,
+          "height": 585,
+          "rotatedWidth": 1271,
+          "rotatedHeight": 585
+        },
+        "rawWidth": 1274,
+        "rawHeight": 586,
+        "width": 1277,
+        "height": 591,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/77/776d15fa-91de-4228-8dc1-86bf7eacbbda.png"
+      },
+      {
+        "name": "Noidung_Guide",
+        "uuid": "3721d02d-8a3d-411e-ab03-a3e8ba5263ec",
+        "textureUuid": "c036642a-3b04-45dc-83bf-7917c6559726",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_7.png",
+        "trim": {
+          "x": 3,
+          "y": 28,
+          "width": 1148,
+          "height": 683,
+          "rotatedWidth": 1148,
+          "rotatedHeight": 683
+        },
+        "rawWidth": 1155,
+        "rawHeight": 738,
+        "width": 1154,
+        "height": 689,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/c0/c036642a-3b04-45dc-83bf-7917c6559726.png"
+      },
+      {
+        "name": "BG_TV",
+        "uuid": "3c47feb0-f5a5-44eb-8884-02c4db6f130a",
+        "textureUuid": "a53ce27e-c98c-4490-ac0a-1d7f60e92be4",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212573_image_9.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "rotatedWidth": 1920,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 1920,
+        "rawHeight": 1080,
+        "width": 1926,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/a5/a53ce27e-c98c-4490-ac0a-1d7f60e92be4.jpg"
+      },
+      {
+        "name": "ForeGround_Left",
+        "uuid": "66981e7c-1376-43a6-95ae-aa0b26d6df1b",
+        "textureUuid": "d00d44ec-68b1-48e9-88ee-3148c0d77f22",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212574_image_16.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 183,
+          "height": 1080,
+          "rotatedWidth": 183,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 183,
+        "rawHeight": 1080,
+        "width": 189,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/d0/d00d44ec-68b1-48e9-88ee-3148c0d77f22.png"
+      },
+      {
+        "name": "Map3",
+        "uuid": "aa887cef-6111-4eb6-9060-c7a93fe3af65",
+        "textureUuid": "c38ea3a3-9ffa-496d-8a46-560e327bc432",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_32.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 570,
+          "height": 1080,
+          "rotatedWidth": 570,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 570,
+        "rawHeight": 1080,
+        "width": 576,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/c3/c38ea3a3-9ffa-496d-8a46-560e327bc432.png"
+      },
+      {
+        "name": "BG_WaitingRoom_TV",
+        "uuid": "d30a585b-84c6-4209-9a3b-bb7bf146c5a8",
+        "textureUuid": "14115e84-0b91-4b40-a341-7faf23bb42e4",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212576_image_38.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "rotatedWidth": 1920,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 1920,
+        "rawHeight": 1080,
+        "width": 1926,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/14/14115e84-0b91-4b40-a341-7faf23bb42e4.jpg"
+      },
+      {
+        "name": "Map1",
+        "uuid": "e00401c5-ea27-4dbb-92b6-6be16ac7c77b",
+        "textureUuid": "f3ef184e-d780-4adb-b069-52ca0b4db3fb",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_45.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 603,
+          "height": 1080,
+          "rotatedWidth": 603,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 603,
+        "rawHeight": 1080,
+        "width": 609,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/f3/f3ef184e-d780-4adb-b069-52ca0b4db3fb.png"
+      },
+      {
+        "name": "ZigZac_Scan_TV",
+        "uuid": "e6ea2cc0-22ae-4ca1-879a-c3a50413b9bd",
+        "textureUuid": "ea095c67-6d0c-40c8-b071-0f69ba267628",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212577_image_46.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "rotatedWidth": 1920,
+          "rotatedHeight": 1080
+        },
+        "rawWidth": 1920,
+        "rawHeight": 1080,
+        "width": 1926,
+        "height": 1086,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/ea/ea095c67-6d0c-40c8-b071-0f69ba267628.png"
+      },
+      {
+        "name": "Noidung_Guide",
+        "uuid": "ff4c5028-3a81-4c94-a060-bae84239474e",
+        "textureUuid": "dac07aff-f854-43ad-96b3-e42b46b44352",
+        "path": "D:\\EloFun\\BallTouchGame\\zigzag_tv\\temp\\trimImages\\spritesheet_js_1715830212578_image_49.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1155,
+          "height": 738,
+          "rotatedWidth": 1155,
+          "rotatedHeight": 738
+        },
+        "rawWidth": 1155,
+        "rawHeight": 738,
+        "width": 1161,
+        "height": 744,
+        "originalPath": "D:/EloFun/BallTouchGame/zigzag_tv/library/imports/da/dac07aff-f854-43ad-96b3-e42b46b44352.png"
+      }
+    ]
+  }
+}

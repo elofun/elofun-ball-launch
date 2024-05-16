@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "MC_Animation",
+    "texture": "f607f10c-2124-4d6d-afa1-f1d9402d5e2c",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1273,
+      296
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      1277,
+      299
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

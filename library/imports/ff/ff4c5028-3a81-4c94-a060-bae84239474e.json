@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Noidung_Guide",
+    "texture": "dac07aff-f854-43ad-96b3-e42b46b44352",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1155,
+      738
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1155,
+      738
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

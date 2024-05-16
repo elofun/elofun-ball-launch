@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Người chơi 2",
+    "texture": "3de12979-57fa-4c36-9973-88cf48cadd51",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      193,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      193,
+      33
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

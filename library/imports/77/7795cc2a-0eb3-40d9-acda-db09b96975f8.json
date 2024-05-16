@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Start_BTN",
+    "texture": "caa5fdfa-f29f-41dd-9924-1b5677c2db68",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      549,
+      311
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      549,
+      311
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
