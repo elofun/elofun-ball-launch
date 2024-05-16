@@ -1,0 +1,90 @@
+{
+  "last-module-event-record-time": 1715830139744,
+  "group-list": [
+    "default",
+    "Wall",
+    "Ball",
+    "WinDetecter",
+    "BallCollider"
+  ],
+  "collision-matrix": [
+    [
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "Dynamic Atlas",
+    "DragonBones",
+    "EditBox",
+    "Mesh",
+    "MotionStreak",
+    "Native Socket",
+    "Physics",
+    "RichText",
+    "Slider",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "TiledMap",
+    "VideoPlayer",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "preview-port": 7456,
+  "design-resolution-width": 960,
+  "design-resolution-height": 540,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "migrate-history": [
+    "cloud-function"
+  ],
+  "clear-simulator-cache": true
+}
