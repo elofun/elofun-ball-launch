@@ -1,5 +1,5 @@
 {
-  "title": "ZigZag",
+  "title": "elofun-ball-launch",
   "packageName": "org.cocos2d.demo",
   "startScene": "d054a05c-c593-4407-b24d-53c716205812",
   "excludeScenes": [],
@@ -27,6 +27,7 @@
   },
   "ios": {
     "REMOTE_SERVER_ROOT": "",
+    "ios_enable_jit": true,
     "packageName": "org.cocos2d.demo"
   },
   "mac": {
@@ -49,5 +50,6 @@
     "scheme": "https",
     "skipRecord": false
   },
-  "appBundle": false
+  "appBundle": false,
+  "agreements": {}
 }
