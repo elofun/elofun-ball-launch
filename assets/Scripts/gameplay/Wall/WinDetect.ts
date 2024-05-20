@@ -5,18 +5,19 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import Stage from "./Stage";
+import GamePlayManager from "../GamePlayManager";
+import LevelManager from "../LevelManager";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class StageTestGame extends Stage {
-  @property(cc.Node) ballHolder: cc.Node = null;
-  protected start(): void {
-    // this.node.children.forEach((element) => {
-    //   element.active = true;
-    // });
-
+export default class WinDetect extends cc.Component {
+  onCollisionEnter(other: cc.Collider, self: cc.Collider) {
+    if (other != self && GamePlayManager.Instance.isLost == false) {
+      // LevelManager.Instance.NextLevel();
+      GamePlayManager.Instance.Win();
+    }
   }
+
   // update (dt) {}
 }

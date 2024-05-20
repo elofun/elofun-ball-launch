@@ -5,17 +5,26 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import Spawn from "../Spawn";
-
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class ParticleManager extends Spawn {
-  public static Instance: ParticleManager = null;
-  public _particleName = {
-    TouchWallParticle: "TouchWallParticle",
-  };
-  protected start(): void {
-    ParticleManager.Instance = this;
+export default class FadeWall extends cc.Component {
+  @property(cc.Node) winWall: cc.Node = null;
+  FadeWall() {
+    cc.tween(this.node)
+      .to(
+        0.3,
+        {
+          scale: 0,
+        },
+        { easing: "fade" }
+      )
+      .start();
+    // update (dt) {}
+  }
+  Reset() {
+    console.log("RESET FADE WALL");
+
+    this.node.scale = 1;
   }
 }

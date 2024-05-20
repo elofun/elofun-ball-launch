@@ -10,12 +10,17 @@ import Spawn from "../Spawn";
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class ParticleManager extends Spawn {
-  public static Instance: ParticleManager = null;
-  public _particleName = {
-    TouchWallParticle: "TouchWallParticle",
-  };
-  protected start(): void {
-    ParticleManager.Instance = this;
+export default class ObstaclesWallSpawner extends Spawn {
+  public _wallPrefabName = "wall";
+  public static Instance: ObstaclesWallSpawner = null;
+
+  protected onLoad(): void {
+    ObstaclesWallSpawner.Instance = this;
   }
+  ClearHolder() {
+    if (this.holder.children.length <= 0) return;
+    this.holder.removeAllChildren();
+
+  }
+  // update (dt) {}
 }
