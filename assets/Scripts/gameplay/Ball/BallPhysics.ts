@@ -6,7 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import Ball from "../Ball";
-import GameManager from "../GameManager";
+// import GameManager from "../GameManager";
 import GamePlayManager from "../GamePlayManager";
 import ParticleManager from "../Particle/ParticleManager";
 
@@ -19,11 +19,10 @@ export default class BallPhysics extends cc.Component {
     self: cc.PhysicsBoxCollider,
     other: cc.PhysicsCircleCollider
   ) {
-    GamePlayManager.Instance.timeNeedToTouch.Touching();
-    ParticleManager.Instance.SpawnThing(
-      contact.getWorldManifold().points[0],
-      ParticleManager.Instance._particleName.TouchWallParticle
-    );
+    GamePlayManager.Instance.Touching();
+    this.scheduleOnce(() => {
+      this.node.parent.getComponent(Ball).ballAngle();
+    }, 1 / 60);
   }
 
   // update (dt) {}

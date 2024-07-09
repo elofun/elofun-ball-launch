@@ -6,7 +6,7 @@ export default new (class Helper {
   Rand(min, max) {
     return Math.random() * (max - min) + min;
   }
-  
+
   RandInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
@@ -19,7 +19,7 @@ export default new (class Helper {
     return arr[this.RandInt(0, arr.length - 1)];
   }
 
-  RandTypeEnum(obj){
+  RandTypeEnum(obj) {
     const keys = Object.keys(obj);
     return this.RandInt(0, keys.length / 2 - 1);
   }
@@ -36,37 +36,36 @@ export default new (class Helper {
   GetIndexEnum(obj, name) {
     const keys = Object.keys(obj);
     for (let i = keys.length / 2; i < keys.length; i++) {
-      if(keys[i] == name){
+      if (keys[i] == name) {
         return i - keys.length / 2;
       }
     }
-    
+
     return -1;
   }
   CopyToClipboard(str) {
-		const el = document.createElement('textarea');
-		var isIOS = navigator.userAgent.search(/(iPad|iPhone|iphone|iPod)/) != -1
-		el.value = str;
-		document.body.appendChild(el);
+    const el = document.createElement("textarea");
+    var isIOS = navigator.userAgent.search(/(iPad|iPhone|iphone|iPod)/) != -1;
+    el.value = str;
+    document.body.appendChild(el);
 
-		if (isIOS) {
-			el.contentEditable = true;
-			el.readOnly = false;
+    if (isIOS) {
+      el.contentEditable = true;
+      el.readOnly = false;
 
-			var range = document.createRange();
-			range.selectNodeContents(el);
-			var sel = window.getSelection();
-			sel.removeAllRanges();
-			sel.addRange(range);
-			el.setSelectionRange(0, 999999);
-		}
-		else {
-			el.setAttribute('readonly', '');
-			el.select();
-		}
-		document.execCommand('copy');
-		document.body.removeChild(el);
-	}
+      var range = document.createRange();
+      range.selectNodeContents(el);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      el.setSelectionRange(0, 999999);
+    } else {
+      el.setAttribute("readonly", "");
+      el.select();
+    }
+    document.execCommand("copy");
+    document.body.removeChild(el);
+  }
 
   Normalized(x1, y1, x2, y2) {
     const dX = x1 - x2;
@@ -141,10 +140,17 @@ export default new (class Helper {
     return Promise.race([promise, timeout]);
   }
 
-  HttpRequest(method, url, body, responseType, headers = null, requestParams = {}) {
+  HttpRequest(
+    method,
+    url,
+    body,
+    responseType,
+    headers = null,
+    requestParams = {}
+  ) {
     const logEvent = (window as any).logEvent || console.log;
     const start = Date.now();
-    const apiName = url.split('/').pop().split('?').shift();
+    const apiName = url.split("/").pop().split("?").shift();
     return new Promise((resolve, reject) => {
       let xhr = new XMLHttpRequest();
       xhr.open(method, url, true);
@@ -179,27 +185,27 @@ export default new (class Helper {
             requestParams,
             reponseStatus: xhr.status,
             response: xhr.response,
-            duration: Date.now() - start
+            duration: Date.now() - start,
           });
         }
       };
 
       xhr.onerror = function (e) {
-        logEvent('apiRequestError', {
+        logEvent("apiRequestError", {
           apiName,
           method,
           url,
           body,
           requestParams,
-          duration: Date.now() - start
+          duration: Date.now() - start,
         });
 
-        reject('error');
-      }
+        reject("error");
+      };
 
       xhr.ontimeout = (e) => {
-        reject('timed out');
-      }
+        reject("timed out");
+      };
 
       xhr.send(body);
     });
@@ -320,7 +326,7 @@ export default new (class Helper {
 
   getControllerURL() {
     let url = window.controllerURL;
-    if(!url || url == "") {
+    if (!url || url == "") {
       return;
     }
     return `${url}${PeerManager.Instance.sip}`;

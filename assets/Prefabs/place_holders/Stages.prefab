@@ -86,22 +86,13 @@
     "_enabled": true,
     "StagePrefabs": [
       {
-        "__uuid__": "95f88e04-8497-4b52-ba5b-2061af2e8450"
-      },
-      {
-        "__uuid__": "a9975901-d22c-45ef-8063-588086dc238f"
-      },
-      {
-        "__uuid__": "afd23854-8151-4da8-b845-8492d0a6602b"
-      },
-      {
-        "__uuid__": "b9bbe66a-ea91-4343-bbd9-7cd21d4a7925"
-      },
-      {
         "__uuid__": "c3dd9f6d-da88-4439-a509-4c8642d0d2b9"
       },
       {
-        "__uuid__": "1de8a8dc-ebfd-4072-962d-d3cf7fd371e6"
+        "__uuid__": "e9e94c7b-4e4a-4c20-bb90-b5a53f239147"
+      },
+      {
+        "__uuid__": "b9bbe66a-ea91-4343-bbd9-7cd21d4a7925"
       }
     ],
     "_id": ""

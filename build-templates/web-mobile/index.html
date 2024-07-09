@@ -134,7 +134,8 @@
   </script>
   <script id="loading-anim-script">
     const urlParams = new URLSearchParams(window.location.search);
-    document.getElementById("bgImg").src = urlParams.get('language') == 'vi' ? 'bg.png' : 'bg_en.png';
+    let language = urlParams.get("language") || "vi";
+    document.getElementById("bgImg").src = language== 'vi' ? 'bg.jpg' : 'bg_en.jpg';
     var myOffsetY = 0;
     window.onload = function ()
     {
@@ -165,7 +166,7 @@
           loaded: false
         },
         loadingText: {
-          dir: urlParams.get('language') == 'vi' ? 'text.png' : 'text_en.png',
+          dir: language ? 'text.png' : 'text_en.png',
           obj: new Image(),
           loaded: false
         },
@@ -253,9 +254,9 @@
           ctx.drawImage(img, 0, 0, img.width * loadingDefines.progress, img.height, this.x, this.y + myOffsetY, img
             .width * this.scale * loadingDefines.progress, img.height * this.scale);
         }.bind(fg);
-        bg.setPos(canvas.width / 2 - 402, canvas.height / 2 + 350);
-        fg.setPos(canvas.width / 2 - 372, canvas.height / 2 + 10 + 365);
-        loading_text.setPos(canvas.width / 2 - 355, canvas.height / 2 + 300);
+        bg.setPos(canvas.width / 2 - 991/2, canvas.height / 2 + 300);
+        fg.setPos(canvas.width / 2 - 946/2, canvas.height / 2 + 315);
+        loading_text.setPos(canvas.width / 2 - 234/2, canvas.height / 2 + 260);
 
         function loop()
         {

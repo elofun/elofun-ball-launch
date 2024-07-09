@@ -7,53 +7,105 @@
 
 // import Singleton from "../utils/Singleton";
 
+import StageMgr, { Stages } from "../stage/StageMgr";
+import StageTestGame from "../stage/StageTestGame";
 import SingletonNode from "../utils/SingletonNode";
+import Ball from "./Ball";
 import FadeWall from "./FadeWall";
-import LevelManager from "./LevelManager.js";
-import TimeNeedToTouch from "./TimeNeedTouch";
+import LevelManager from "./LevelManager";
+import TimeNeedTouch from "./TimeNeedTouch";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
-  @property(TimeNeedToTouch) public timeNeedToTouch: TimeNeedToTouch = null;
-  @property(FadeWall) public fadeWall: FadeWall = null;
+  // @property(FadeWall) public fadeWall: FadeWall = null;
 
-  // public static Instance: GamePlayManager = null;
+  // @property(Number) timeToTouch: Number = null;
 
-  public currentLevel: number = null;
+  @property(cc.Node) bottleNap: cc.Node = null;
+  @property(cc.Label) timeToTouchLbl: cc.Label = null;
+
+  public isOpenDoor: boolean = false;
+  public isStopTouching: boolean = false;
+  public timeToTouch: number = 0;
+
+  // public currentLevel: number = null;
   public isLost: boolean = false;
+  // label: any;
 
-  protected onEnable(): void {
-    cc.director.getPhysicsManager().enabled = true;
-    cc.director.getCollisionManager().enabled = true;
-    // cc.director.getPhysicsManager().debugDrawFlags =
-    //   cc.PhysicsManager.DrawBits.e_aabbBit |
-    //   cc.PhysicsManager.DrawBits.e_pairBit |
-    //   cc.PhysicsManager.DrawBits.e_centerOfMassBit |
-    //   cc.PhysicsManager.DrawBits.e_jointBit |
-    //   cc.PhysicsManager.DrawBits.e_shapeBit;
+  init() {
+    this.ResetPlayGround();
+    LevelManager.Instance.SetUpLevel(0);
   }
-  protected start(): void {
-    if (this.currentLevel == null) {
-      this.currentLevel = 0;
-      LevelManager.Instance.SetUpLevel(this.currentLevel); // set level to 0
-      // this.ballHolder.active = true;
-    }
+  ResetPlayGround() {
+    LevelManager.Instance.DisableHolder();
+    this.bottleNap.parent.active = false;
+    this.bottleNap.scale = 1;
+    this.isOpenDoor = false;
+    this.isStopTouching = false;
   }
 
   Win() {
-    // console.log("win");
-
+    console.log("win");
     if (this.isLost == true) return;
-    LevelManager.Instance.DisableHolder();
-    LevelManager.Instance.NextLevel();
-  }
-  Lose() {
-    // console.log("lose");
+    this.init();
+    this.ResetPlayGround();
 
-    LevelManager.Instance.DisableHolder();
-    LevelManager.Instance.SetUpLevel(this.currentLevel);
+    LevelManager.Instance.NextLevel();
+    StageTestGame.Instance.showTimeNeedToTouch();
     this.isLost = false;
+  }
+  Replay() {
+    this.GameOver();
+
+    StageTestGame.Instance.setStartGame(false);
+    this.ResetPlayGround();
+    LevelManager.Instance.SetUpLevel(LevelManager.Instance.getCurLevel());
+    // StageTestGame.Instance.showTimeNeedToTouch();
+    this.isLost = false;
+  }
+  setBounce(timeBounce: number) {
+    this.timeToTouch = timeBounce;
+    this.timeToTouchLbl.string = this.timeToTouch.toString();
+  }
+  ReduceTimeTouch() {
+    this.setBounce(--this.timeToTouch);
+  }
+  FadeWall() {
+    console.log("WTF");
+    cc.tween(this.bottleNap)
+      .to(
+        0.1,
+        {
+          scale: 0,
+        },
+        { easing: "fade" }
+      )
+      .start();
+  }
+  GameOver() {
+    StageMgr.show(Stages.StageGameEnd);
+  }
+  Touching() {
+    if (this.isStopTouching == true) return;
+    if (this.timeToTouch > 1) {
+      GamePlayManager.Instance.ReduceTimeTouch();
+
+      console.log("this.timeToTouch", this.timeToTouch);
+    } else if (this.timeToTouch == 1 && this.isOpenDoor == false) {
+      //open door
+      GamePlayManager.Instance.ReduceTimeTouch();
+      this.isOpenDoor = true;
+      GamePlayManager.Instance.FadeWall();
+    } else if (this.isOpenDoor == true) {
+      GamePlayManager.Instance.isLost = true;
+      // this.timeToTouchLbl.string = "LOSE";
+      // LOST TODO: change lbl color
+      this.isStopTouching = true;
+      this.scheduleOnce(() => {
+        this.Replay();
+      }, 0.4);
+    }
   }
 }

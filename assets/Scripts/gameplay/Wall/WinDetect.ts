@@ -14,7 +14,7 @@ const { ccclass, property } = cc._decorator;
 export default class WinDetect extends cc.Component {
   onCollisionEnter(other: cc.Collider, self: cc.Collider) {
     if (other != self && GamePlayManager.Instance.isLost == false) {
-      // LevelManager.Instance.NextLevel();
+     
       GamePlayManager.Instance.Win();
     }
   }

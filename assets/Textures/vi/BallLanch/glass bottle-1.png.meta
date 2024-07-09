@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "fad7e6e8-19f8-4285-8bdd-b722434134fa",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 877,
+  "height": 1389,
+  "platformSettings": {},
+  "subMetas": {
+    "glass bottle-1": {
+      "ver": "1.0.4",
+      "uuid": "fc1c8d7b-787f-477f-ab81-508302c55677",
+      "rawTextureUuid": "fad7e6e8-19f8-4285-8bdd-b722434134fa",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 877,
+      "height": 1389,
+      "rawWidth": 877,
+      "rawHeight": 1389,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

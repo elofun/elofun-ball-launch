@@ -69,29 +69,20 @@ export default class StageMgr extends SingletonNode<StageMgr>() {
       instance.mCurrentStage.getComponent(Stage).init();
     }
 
-    let msg: IDataReceived = {
-      phase: PeerPhase.NONE,
-      action: PeerActionType.SHOW,
-      customParam: "",
-    };
+    // switch (stageName) {
+    //   case Stages.StageTestGame:
+    //     StageTestGame.Instance.init();
+    //     PeerManager.Instance.PlayGame();
+    //     // msg.phase = PeerPhase.INGAME;
+    //     break;
+
+    //   case Stages.StageGameEnd:
+    //     // msg.phase = PeerPhase.GAMEOVER;
+    //     break;
+    // }
+
     return;
     PeerManager.Instance.PlayGame(false);
-
-    switch (stageName) {
-      case Stages.StageInGame:
-        StageInGame.Instance.initial();
-        PeerManager.Instance.PlayGame();
-        msg.phase = PeerPhase.INGAME;
-        break;
-      case Stages.StageLobby:
-        msg.phase = PeerPhase.WAITING;
-        break;
-      case Stages.StageGameEnd:
-        msg.phase = PeerPhase.GAMEOVER;
-        break;
-    }
-
-    PeerManager.Instance.sendMessageToAll(msg);
   }
 
   static nextStage(isNext: boolean = true, duration: number = 0.5) {
@@ -116,6 +107,8 @@ export default class StageMgr extends SingletonNode<StageMgr>() {
   onLoad() {
     super.onLoad();
     for (let i = 0; i < this.StagePrefabs.length; i++) {
+      console.log(this.StagePrefabs);
+
       const node = cc.instantiate(this.StagePrefabs[i]);
       this.node.addChild(node);
       node.active = false;
@@ -133,12 +126,6 @@ export default class StageMgr extends SingletonNode<StageMgr>() {
         }
         if (PeerManager.Instance.isPlayWithRemote) {
           switch (StageMgr.Instance.CurrentStage.name) {
-            case Stages[Stages.StageQRscan]:
-              if (event.keyCode == 13) {
-                StageQRscan.Instance.nextStage(true);
-                PeerManager.Instance.setRemoteMode(true);
-              }
-              break;
             case Stages[Stages.StageStartGame]:
               if (event.keyCode == 13) {
                 StageStartGame.Instance.nextStage(true);
@@ -207,7 +194,7 @@ export default class StageMgr extends SingletonNode<StageMgr>() {
     this.StageCover = cc.find("Canvas").getChildByName("Stage Cover");
     this.StageCover.active = false;
 
-    StageMgr.show(Stages.StageQRscan);
+    StageMgr.show(Stages.StageStartGame);
   }
 
   private animate(duration: number) {

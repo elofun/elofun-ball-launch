@@ -42,8 +42,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1280,
-      "height": 720
+      "width": 960,
+      "height": 540
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -54,8 +54,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        640,
-        360,
+        480,
+        270,
         0,
         0,
         0,
@@ -216,7 +216,7 @@
     "asset": {
       "__uuid__": "407fd7cb-56d8-411c-9fe0-f4b9f0fb4b6c"
     },
-    "fileId": "61q55Tla1Coq/ByFSNWJP7",
+    "fileId": "",
     "sync": false
   }
 ]

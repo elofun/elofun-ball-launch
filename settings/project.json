@@ -1,5 +1,5 @@
 {
-  "last-module-event-record-time": 1715830139744,
+  "last-module-event-record-time": 1720276817631,
   "group-list": [
     "default",
     "Wall",
@@ -41,25 +41,7 @@
     ]
   ],
   "excluded-modules": [
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Mesh",
-    "MotionStreak",
-    "Native Socket",
-    "Physics",
-    "RichText",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "3D",
-    "3D Primitive",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
+    "3D Physics/Builtin"
   ],
   "preview-port": 7456,
   "design-resolution-width": 960,
