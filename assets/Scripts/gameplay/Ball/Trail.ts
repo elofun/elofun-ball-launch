@@ -26,7 +26,7 @@ export default class Trail extends cc.Component {
   start() {
     // Create a graphics node
     this.graphics = this.node.getComponent(cc.Graphics);
-    console.log(this.graphics);
+    
 
     // this.scheduleUpdate();
   }

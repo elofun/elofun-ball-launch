@@ -20,11 +20,13 @@ export default class Ball extends cc.Component {
   public static Instance: Ball = null;
   public rigidBody: cc.RigidBody = null;
   public trajectoryLineDir: cc.Vec2 = new cc.Vec2(0, 1);
-  // @property(cc.Node) public SFX: cc.Node = null;
-  @property(cc.Node) public model: cc.Node = null;
 
+  @property(cc.Node) public model: cc.Node = null;
   @property(cc.Node) public ball: cc.Node = null;
   @property(TrajectoryLine) public trajectoryLine: TrajectoryLine = null;
+  @property(cc.Node) public particle: cc.Node = null;
+  @property(cc.PhysicsCircleCollider)
+  ballPhyCollider: cc.PhysicsCircleCollider = null;
 
   @property(Number) public moveSpeed: number = 0;
   public isBallMoving: boolean = false;
@@ -45,8 +47,6 @@ export default class Ball extends cc.Component {
       100
     );
     this.node.active = true;
-
-    // this.model.setRotation(0);
 
     this.model.angle = 0;
   }
@@ -75,7 +75,7 @@ export default class Ball extends cc.Component {
       case 13: //keycode left arrow
         if (this.isBallMoving == true) return;
         console.log("ENTER");
-
+        this.ballPhyCollider.enabled = true;
         this.SetDirOfBall(this.trajectoryLineDir);
         this.trajectoryLine.graphics.clear();
         this.isBallMoving = true;
@@ -97,13 +97,11 @@ export default class Ball extends cc.Component {
   }
   rotateModel(dir: number) {
     this.node.active = true;
-    console.log("dir", dir);
-    console.log("this.model.angle", this.model.angle);
-
     this.model.angle += Helper.ToAngle(0.017453 * GameDefine.degree * dir);
-    console.log("Model Rotate:", this.model.angle);
   }
   Reset() {
+    this.ballPhyCollider.enabled = false;
+    this.particle.active = false;
     this.node.active = false;
     this.rigidBody.linearVelocity = cc.Vec2.ZERO;
     this.isBallMoving = false;
@@ -114,9 +112,39 @@ export default class Ball extends cc.Component {
   ballAngle() {
     //change model angle  cal when hit wall
     if (this.isBallMoving == false) return;
-    this.model.angle = this.AngleCal();
+    cc.tween(this.model)
+      .to(0.3, { angle: this.AngleCal() }, { easing: "linear" })
+      .start();
   }
+  loseAnimation() {
+    console.log("CC");
 
+    cc.Tween.stopAllByTarget(this.node);
+
+    cc.tween(this.rigidBody)
+      // .delay(0.)
+      .to(1, { linearVelocity: cc.Vec2.ZERO }, { easing: "expoOut" })
+      .call(() => {
+        {
+          this.ballPhyCollider.enabled = false;
+          this.particle.active = true;
+        }
+      })
+      .start();
+    cc.tween(this.model)
+      .to(0.05, { scaleY: 0.6 })
+      .to(1, { scaleY: 1 }, { easing: "bounceIn" })
+      .union()
+      .start();
+  }
+  onHitWall() {
+    this.ballAngle();
+    this.rigidBody.linearVelocity = this.rigidBody.linearVelocity.mul(1.3);
+    console.log(
+      this.rigidBody.linearVelocity.x,
+      this.rigidBody.linearVelocity.y
+    );
+  }
   AngleCal(): number {
     const tan =
       this.rigidBody.linearVelocity.y / this.rigidBody.linearVelocity.x;

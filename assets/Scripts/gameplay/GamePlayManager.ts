@@ -11,9 +11,8 @@ import StageMgr, { Stages } from "../stage/StageMgr";
 import StageTestGame from "../stage/StageTestGame";
 import SingletonNode from "../utils/SingletonNode";
 import Ball from "./Ball";
-import FadeWall from "./FadeWall";
+
 import LevelManager from "./LevelManager";
-import TimeNeedTouch from "./TimeNeedTouch";
 
 const { ccclass, property } = cc._decorator;
 
@@ -25,6 +24,7 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
 
   @property(cc.Node) bottleNap: cc.Node = null;
   @property(cc.Label) timeToTouchLbl: cc.Label = null;
+  @property(cc.Node) glassModel: cc.Node = null;
 
   public isOpenDoor: boolean = false;
   public isStopTouching: boolean = false;
@@ -49,6 +49,8 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
   Win() {
     console.log("win");
     if (this.isLost == true) return;
+    StageTestGame.Instance.setStartGame(false);
+
     this.init();
     this.ResetPlayGround();
 
@@ -57,12 +59,12 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
     this.isLost = false;
   }
   Replay() {
-    this.GameOver();
+    // this.GameOver();
 
     StageTestGame.Instance.setStartGame(false);
     this.ResetPlayGround();
     LevelManager.Instance.SetUpLevel(LevelManager.Instance.getCurLevel());
-    // StageTestGame.Instance.showTimeNeedToTouch();
+    StageTestGame.Instance.showTimeNeedToTouch();
     this.isLost = false;
   }
   setBounce(timeBounce: number) {
@@ -100,12 +102,13 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
       GamePlayManager.Instance.FadeWall();
     } else if (this.isOpenDoor == true) {
       GamePlayManager.Instance.isLost = true;
-      // this.timeToTouchLbl.string = "LOSE";
+      this.timeToTouchLbl.string = "LOSE";
       // LOST TODO: change lbl color
       this.isStopTouching = true;
+      StageTestGame.Instance.ballHolder.getComponent(Ball).loseAnimation();
       this.scheduleOnce(() => {
         this.Replay();
-      }, 0.4);
+      }, 2);
     }
   }
 }

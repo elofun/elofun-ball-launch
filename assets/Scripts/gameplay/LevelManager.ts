@@ -7,11 +7,8 @@
 import SingletonNode from "../utils/SingletonNode";
 import * as levelDesign2 from "../gameplay/Level/GameplayLevelDesgin.js";
 import ObstaclesWallSpawner from "./Wall/ObstaclesWallSpawner";
-import TimeNeedToTouch from "./TimeNeedTouch";
 import GamePlayManager from "./GamePlayManager";
 import Ball from "./Ball";
-
-import FadeWall from "./FadeWall";
 import GameDefine from "../game/GameDefine";
 
 const { ccclass, property } = cc._decorator;
@@ -69,7 +66,10 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
       currentLevel[this._levelDesignKey.fadeWallHolder].pos.y
     );
 
-    if (currentLevel[this._levelDesignKey.obstaclesWall].length > 0) {
+    if (
+      currentLevel[this._levelDesignKey.obstaclesWall] &&
+      currentLevel[this._levelDesignKey.obstaclesWall].length > 0
+    ) {
       for (
         let index = 0;
         index < currentLevel[this._levelDesignKey.obstaclesWall].length;

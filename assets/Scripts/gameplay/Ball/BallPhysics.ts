@@ -9,6 +9,7 @@ import Ball from "../Ball";
 // import GameManager from "../GameManager";
 import GamePlayManager from "../GamePlayManager";
 import ParticleManager from "../Particle/ParticleManager";
+import ShakeEffect from "../ShakeEffect";
 
 const { ccclass, property } = cc._decorator;
 
@@ -20,8 +21,11 @@ export default class BallPhysics extends cc.Component {
     other: cc.PhysicsCircleCollider
   ) {
     GamePlayManager.Instance.Touching();
+    this.getComponent(ShakeEffect).shakeNode(
+      GamePlayManager.Instance.glassModel
+    );
     this.scheduleOnce(() => {
-      this.node.parent.getComponent(Ball).ballAngle();
+      this.node.parent.getComponent(Ball).onHitWall();
     }, 1 / 60);
   }
 

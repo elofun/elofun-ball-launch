@@ -1,7 +1,7 @@
 export default [
   {
     level: 1,
-    timeToBounce: 1,
+    timeToBounce: 3,
 
     ballStartPos: { x: 200, y: -100 },
     wall: {
@@ -11,18 +11,11 @@ export default [
       wall4: { pos: { x: 0, y: -230 }, size: { w: 960, h: 100 } },
     },
     fadeWall: { pos: { x: 370.801, y: -130 }, size: { w: 134, h: 266 } },
-    obstaclesWall: [
-      {
-        pos: { x: 0, y: 0 },
-        size: { w: 2, h: 2 },
-        rotation: 0,
-      },
-    ],
   },
 
   {
     level: 2,
-    timeToBounce: 3,
+    timeToBounce: 100,
 
     ballStartPos: { x: 100, y: -100 },
     wall: {
@@ -37,7 +30,7 @@ export default [
       {
         pos: { x: 0, y: 0 },
         size: { w: 1, h: 4 },
-        rotation: 30,
+        rotation: 0,
       },
     ],
   },
