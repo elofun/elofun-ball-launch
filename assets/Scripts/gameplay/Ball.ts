@@ -28,13 +28,14 @@ export default class Ball extends cc.Component {
   @property(cc.PhysicsCircleCollider)
   ballPhyCollider: cc.PhysicsCircleCollider = null;
 
-  @property(Number) public moveSpeed: number = 0;
   public isBallMoving: boolean = false;
   public mouseHold: boolean = false;
 
   protected onLoad(): void {
     Ball.Instance = this;
     this.rigidBody = this.ball.getComponent(cc.RigidBody);
+  }
+  protected onEnable(): void {
     cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyPress, this);
   }
   init() {
@@ -55,24 +56,24 @@ export default class Ball extends cc.Component {
     let dir: cc.Vec2 = trajectoryLineDir
       .sub(this.ball.getPosition())
       .normalize()
-      .mul(this.moveSpeed);
+      .mul(GameDefine.BallMoveSpeed);
     this.rigidBody.linearVelocity = dir;
   }
   onKeyPress(event: cc.Event.EventKeyboard) {
     if (StageTestGame.Instance.getStartGame() == false) return;
 
     switch (event.keyCode) {
-      case cc.macro.KEY.d: //keycode right arrow
+      case cc.macro.KEY.right: //keycode right arrow
         if (this.isBallMoving == true) return;
 
         this.RotateTrajectoryLine(1);
         break;
-      case 39: //keycode left arrow
+      case cc.macro.KEY.left: //keycode left arrow
         if (this.isBallMoving == true) return;
 
         this.RotateTrajectoryLine(-1);
         break;
-      case 13: //keycode left arrow
+      case cc.macro.KEY.enter:
         if (this.isBallMoving == true) return;
         console.log("ENTER");
         this.ballPhyCollider.enabled = true;
@@ -107,6 +108,11 @@ export default class Ball extends cc.Component {
     this.isBallMoving = false;
     this.trajectoryLineDir = new cc.Vec2(0, 1);
     this.ball.setPosition(0, 0);
+    cc.tween(this.model)
+      .to(0.3, { scaleY: 0.8 })
+      .to(0.3, { scaleY: 1 })
+      .repeatForever()
+      .start();
   }
 
   ballAngle() {
@@ -123,7 +129,7 @@ export default class Ball extends cc.Component {
 
     cc.tween(this.rigidBody)
       // .delay(0.)
-      .to(1, { linearVelocity: cc.Vec2.ZERO }, { easing: "expoOut" })
+      .to(0.25, { linearVelocity: cc.Vec2.ZERO }, { easing: "expoOut" })
       .call(() => {
         {
           this.ballPhyCollider.enabled = false;
@@ -136,6 +142,11 @@ export default class Ball extends cc.Component {
       .to(1, { scaleY: 1 }, { easing: "bounceIn" })
       .union()
       .start();
+  }
+  slow() {
+    this.rigidBody.linearVelocity = this.rigidBody.linearVelocity
+      .normalize()
+      .mul(100);
   }
   onHitWall() {
     this.ballAngle();

@@ -79,6 +79,6 @@ export default class StageGameEnd extends Stage {
     this.btnPlay.interactable = isBtnNext;
   }
   public init(): void {
-    this.setScore(LevelManager.Instance.getCurLevel() + 1);
+    this.setScore(LevelManager.Instance.currentLevel + 1);
   }
 }

@@ -31,20 +31,30 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
     obstaclesWall: "obstaclesWall",
     timeToBounce: "timeToBounce",
   };
-  getCurLevel() {
+  get currentLevel() {
     return this._currentLevel;
   }
+  set currentLevel(value: number) {
+    console.log(value);
+    this._currentLevel = value;
+  }
   SetUpLevel(levelIndex: number) {
-    if (levelIndex > levelDesign2.length - 1) {
-      GamePlayManager.Instance.GameOver();
-      return;
+    const urlParams = new URLSearchParams(window.location.search);
+    const levelUrlParams = parseInt(urlParams.get("level"));
+    console.log("levelUrlParams", levelUrlParams);
+    if (levelUrlParams) {
+      this.currentLevel = levelUrlParams;
+    } else {
+      this.currentLevel = levelIndex;
     }
 
-    this._currentLevel = levelIndex;
-    const currentLevel = levelDesign2[levelIndex];
-    this.levelShowlbl.string = `Level ${levelIndex + 1}`;
+    const currentLevelData = levelDesign2[this.currentLevel];
+    this.levelShowlbl.string = `Level ${this.currentLevel + 1}`;
     this.wall.children.forEach((eachWall) => {
-      let tempWall = this.GetValueByKey(currentLevel["wall"], eachWall.name);
+      let tempWall = this.GetValueByKey(
+        currentLevelData["wall"],
+        eachWall.name
+      );
       if (tempWall == null) return;
 
       eachWall.setPosition(tempWall.pos.x, tempWall.pos.y);
@@ -57,27 +67,27 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
     });
 
     this.ballHolder.setPosition(
-      currentLevel[this._levelDesignKey.ballStartPos].x,
-      currentLevel[this._levelDesignKey.ballStartPos].y
+      currentLevelData[this._levelDesignKey.ballStartPos].x,
+      currentLevelData[this._levelDesignKey.ballStartPos].y
     );
 
     this.fadeWallHolder.setPosition(
-      currentLevel[this._levelDesignKey.fadeWallHolder].pos.x,
-      currentLevel[this._levelDesignKey.fadeWallHolder].pos.y
+      currentLevelData[this._levelDesignKey.fadeWallHolder].pos.x,
+      currentLevelData[this._levelDesignKey.fadeWallHolder].pos.y
     );
 
     if (
-      currentLevel[this._levelDesignKey.obstaclesWall] &&
-      currentLevel[this._levelDesignKey.obstaclesWall].length > 0
+      currentLevelData[this._levelDesignKey.obstaclesWall] &&
+      currentLevelData[this._levelDesignKey.obstaclesWall].length > 0
     ) {
       for (
         let index = 0;
-        index < currentLevel[this._levelDesignKey.obstaclesWall].length;
+        index < currentLevelData[this._levelDesignKey.obstaclesWall].length;
         index++
       ) {
         let obstaclesWallPos: cc.Vec2 = new cc.Vec2(
-          currentLevel[this._levelDesignKey.obstaclesWall][index].pos.x,
-          currentLevel[this._levelDesignKey.obstaclesWall][index].pos.y
+          currentLevelData[this._levelDesignKey.obstaclesWall][index].pos.x,
+          currentLevelData[this._levelDesignKey.obstaclesWall][index].pos.y
         );
         let obsWall: cc.Node = ObstaclesWallSpawner.Instance.SpawnThing(
           obstaclesWallPos,
@@ -85,30 +95,30 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
         );
         obsWall.active = false;
         obsWall.rotation =
-          currentLevel[this._levelDesignKey.obstaclesWall][index].rotation;
+          currentLevelData[this._levelDesignKey.obstaclesWall][index].rotation;
         obsWall.width =
-          currentLevel[this._levelDesignKey.obstaclesWall][index].size.w *
+          currentLevelData[this._levelDesignKey.obstaclesWall][index].size.w *
           GameDefine.ObstaclesWall.width;
         obsWall.height =
-          currentLevel[this._levelDesignKey.obstaclesWall][index].size.h *
+          currentLevelData[this._levelDesignKey.obstaclesWall][index].size.h *
           GameDefine.ObstaclesWall.hight;
         obsWall.getComponent(cc.PhysicsBoxCollider).size.width =
-          currentLevel[this._levelDesignKey.obstaclesWall][index].size.w *
+          currentLevelData[this._levelDesignKey.obstaclesWall][index].size.w *
           GameDefine.ObstaclesWall.width;
         obsWall.getComponent(cc.PhysicsBoxCollider).size.height =
-          currentLevel[this._levelDesignKey.obstaclesWall][index].size.h *
+          currentLevelData[this._levelDesignKey.obstaclesWall][index].size.h *
           GameDefine.ObstaclesWall.hight;
         obsWall.active = true;
       }
     }
     GamePlayManager.Instance.setBounce(
-      currentLevel[this._levelDesignKey.timeToBounce]
+      currentLevelData[this._levelDesignKey.timeToBounce]
     );
     // this.timeToBounceHolder
     //   .getComponent(TimeNeedToTouch)
     //   .setBounce();
     this.timeToBouncePop.string =
-      currentLevel[this._levelDesignKey.timeToBounce];
+      currentLevelData[this._levelDesignKey.timeToBounce];
     this.fadeWallHolder.active = true;
     this.ballHolder.active = true;
   }
@@ -123,7 +133,11 @@ export default class LevelManager extends SingletonNode<LevelManager>() {
     this.ballHolder.active = false;
   }
   NextLevel() {
-    this.SetUpLevel(++this._currentLevel);
+    if (this.currentLevel == levelDesign2.length - 1) {
+      GamePlayManager.Instance.GameOver();
+      return;
+    }
+    this.SetUpLevel(++this.currentLevel);
   }
   GetValueByKey(objectInput, keyToFind: string) {
     for (const key in objectInput) {

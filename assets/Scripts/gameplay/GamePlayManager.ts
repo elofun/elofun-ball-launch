@@ -47,11 +47,10 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
   }
 
   Win() {
-    console.log("win");
     if (this.isLost == true) return;
-    StageTestGame.Instance.setStartGame(false);
+    console.log("win");
 
-    this.init();
+    StageTestGame.Instance.setStartGame(false);
     this.ResetPlayGround();
 
     LevelManager.Instance.NextLevel();
@@ -63,7 +62,7 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
 
     StageTestGame.Instance.setStartGame(false);
     this.ResetPlayGround();
-    LevelManager.Instance.SetUpLevel(LevelManager.Instance.getCurLevel());
+    LevelManager.Instance.SetUpLevel(LevelManager.Instance.currentLevel);
     StageTestGame.Instance.showTimeNeedToTouch();
     this.isLost = false;
   }
@@ -100,6 +99,7 @@ export default class GamePlayManager extends SingletonNode<GamePlayManager>() {
       GamePlayManager.Instance.ReduceTimeTouch();
       this.isOpenDoor = true;
       GamePlayManager.Instance.FadeWall();
+      StageTestGame.Instance.ballHolder.getComponent(Ball).slow();
     } else if (this.isOpenDoor == true) {
       GamePlayManager.Instance.isLost = true;
       this.timeToTouchLbl.string = "LOSE";

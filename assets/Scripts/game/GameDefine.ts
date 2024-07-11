@@ -20,4 +20,5 @@ export default new (class GameDefine {
 
   public degree: number = 2;
   public ObstaclesWall = { hight: 133, width: 133 };
+  public BallMoveSpeed = 100;
 })();

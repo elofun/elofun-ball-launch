@@ -1,7 +1,7 @@
 export default [
   {
     level: 1,
-    timeToBounce: 3,
+    timeToBounce: 2,
 
     ballStartPos: { x: 200, y: -100 },
     wall: {
@@ -15,7 +15,7 @@ export default [
 
   {
     level: 2,
-    timeToBounce: 100,
+    timeToBounce: 1000,
 
     ballStartPos: { x: 100, y: -100 },
     wall: {
@@ -29,7 +29,7 @@ export default [
     obstaclesWall: [
       {
         pos: { x: 0, y: 0 },
-        size: { w: 1, h: 4 },
+        size: { w: 1, h: 3 },
         rotation: 0,
       },
     ],
