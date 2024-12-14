@@ -30,7 +30,7 @@
     "event-stream": "3.3.2",
     "fire-fs": "0.2.1",
     "glsl-tokenizer": "2.1.5",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-cached": "1.1.0",
     "gulp-concat": "2.6.0",
@@ -57,6 +57,6 @@
     "vinyl-buffer": "1.0.1",
     "vinyl-source-stream": "2.0.0",
     "vinyl-sourcemaps-apply": "0.2.1",
-    "watchify": "3.7.0"
+    "watchify": "3.11.1"
   }
 }
